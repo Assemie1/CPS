@@ -45,15 +45,14 @@ body {
 
 .Bild{
   text-align: center;
+
 }
 
 
 #eifel{
-
-  z-index: 0;
+  z-index: -1;
   border-radius: 40px;
   position: absolute;
-
 }
 
 #ascii{
@@ -65,6 +64,8 @@ body {
 
 /*FOOTER*/
 footer {
+  border-radius: 30px;
+  border-color: white;
   text-align: center;
   position:relative;
   bottom: 0;
