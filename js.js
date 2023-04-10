@@ -3,9 +3,9 @@ var Scroll = 1;
 
 var oldScrollY = window.scrollY;
 var directionText = document.getElementById('direction');
-ascii.style.opacity=Scroll = "1";
 
-window.onscroll = function(e) {
+
+window.onscroll = function() {
     if(oldScrollY < window.scrollY){
         Scroll= Scroll - 0.02;
     } else {
