@@ -142,12 +142,13 @@ html {
   
 
   .Start{
-    margin-top: 1%;
+    margin-top: 5%;;
     position: absolute;
     text-align: center;
   }
 
   .startwave{
+    margin-top: 5%;
     width: 101.3%;
     margin-left: -0.9%;
     height: 150px;
