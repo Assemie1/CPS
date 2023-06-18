@@ -1,0 +1,17 @@
+   Verticaler Slider neben nem Bild:
+   
+   <input id="slider" type="range" min="0" max="1" step="0.02" value="1" orient="vertical" >
+
+input[type=range][orient=vertical]{
+  writing-mode: bt-lr; 
+  -webkit-appearance: slider-vertical; 
+  height: 1652px;
+  width: auto;
+}
+
+#slider{
+  position: absolute;
+  z-index: 2;
+  top: 240px
+
+}
