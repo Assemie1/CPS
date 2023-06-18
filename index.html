@@ -2,35 +2,53 @@
 <html>
     <head>
         
-        <link rel="stylesheet" href="stylesheet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
         <title>CPS</title>
+
+
       </head>
 
 <body >
-    
+
   <div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="bilder.html">Bilder</a>
-    <a href="tictactoe.html">CatTacToe</a>
-        
-  </div>
+    <a class="active" href="index.html">Home</a>
+      <div  class="popup"  >
+        <a onclick="myFunction()">Tour</a>
+      </div>
+      <a href="message.html">Message</a>
+      <div class="dropdown">
+        <button class="dropdownbtn">Orte</button>
+        <div class="dropdown-content">
+          <a href="frankfurt.html">Frankfurt</a>
+          <a href="newyork.html">New York</a>
+        </div>
+      </div>
+      <a href="evolution.html">Evolution</a>
+    </div>
+  
+    <div>
+      <span class="popuptext" id="myPopup">This page is under maintenance</span>
+    </div>
+
+    <button class="btn-toggle" id="btnDL">
+      <img id="modeswitch" src="bilder\lightmode.png" height=200px width="200px">
+    </button>
+    
 
     <div class="StartText">
       <h3 style="font-size: 40px">Hallo</h3>
-      <p style="font-size: 28px"> Das ist reiner Platzhaltertext nachdem ich noch nicht den blasseseten schimmer habe was genau hier hin soll</p>
+      <p style="font-size: 28px">
+        Hier wird sicherlich irgendwann mal was sinnvolles stehen<br>
+        Aber stand jetzt muss ich mir das noch überlegen
+      </p>
     </div>
 
-  <div class="Bild">
-    <img id="eifel" src="bilder\eifel.png" height="1920" width="1080">
-    <img id="ascii" src="bilder\ascii.jpg" height="1920" width="1080">
-  </div>
-  
-  <script language="javascript" type="text/javascript" src="js.js"></script>
+
+  <script language="javascript" type="text/javascript" src="darkmode.js"></script>
+  <script language="javascript" type="text/javascript" src="alerts.js"></script>
 
 </body>
-<footer>
-  <p>Hier könnte auch was sinnvolles sein</p>
-  <p>Oder eben halt auch nicht</p>
 
-</footer>
 </html>
+

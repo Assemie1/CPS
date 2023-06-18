@@ -1,0 +1,243 @@
+/* BODY */
+body {
+  --bkg-color: rgb(255, 255, 255);
+  --text-color: rgb(33, 33, 33);
+}
+
+body.dark-theme {
+  --bkg-color: rgb(33, 33, 33);
+  --text-color: rgb(247, 247, 247);
+}
+
+
+body{
+  background-color: var(--bkg-color);
+  color: var(--text-color);
+  font-family: Verdana;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+/* Add a black background color to the top navigation */
+.topnav {
+  border-radius: 30px;
+  border-color: white;
+  background-color: rgb(91, 87, 92);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: rgb(247, 247, 247);
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover, .dropdown:hover .dropdownbtn {
+  background-color:  rgb(34, 31, 31);
+  color: rgb(255, 255, 255);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:  rgb(255, 65, 55);
+  color: rgb(34, 31, 31);
+}
+
+/*Dropdown*/
+
+.dropdown{
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdownbtn {
+  font-family: Verdana;
+  border: none;
+  outline: none;
+  background-color: rgb(91, 87, 92);
+  color: rgb(247, 247, 247);
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 16px;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(91, 87, 92);
+}
+
+.dropdown-content a {
+  float: none;
+  display: block;
+  color: rgb(247, 247, 247);
+  text-align: left;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 16px;
+}
+
+.dropdown-content a:hover {
+  background-color:  rgb(34, 31, 31);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.popup {
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: rgb(255, 183, 55);
+  color: var(--text-color);
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  left: 60px;
+}
+
+
+
+  #btnDL{ 
+    float: right;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: none;
+    appearance: none;
+    background-color: inherit;
+  }
+  
+  #modeswitch {
+    max-width: 4vw;
+    height: auto;
+  }
+
+  /*TEXT HOME*/
+  .StartText{
+    text-align: center;
+    padding-bottom: 5%;
+  
+  }
+  #BildU{
+    border-radius: 40px;
+    position: absolute;
+    max-width: 35%;
+    height: auto;
+    z-index: -1;
+  }
+
+  #BildB{
+    position: absolute;
+    border-radius: 40px;
+    max-width: 35%;
+    height: auto;
+    z-index: 1;
+    opacity: 0;
+  }
+  #BildB:hover{
+    opacity: 100;
+  }
+
+  #Bild2U{
+    right: 5%;
+    border-radius: 40px;
+    position: absolute;
+    max-width: 35%;
+    height: auto;
+    z-index: -1;
+  }
+
+  #Bild2B{
+    right: 5%;
+    position: absolute;
+    border-radius: 40px;
+    max-width: 35%;
+    height: auto;
+    z-index: 1;
+    opacity: 0;
+  }
+  #Bild2B:hover{
+    opacity: 100;
+  }
+
+  .Speede,.Notre-Dame{
+    padding-left: 5%;
+    position:relative;
+
+  }
+
+ 
+  .Strand{
+    padding-right: 5%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+
+
+  .Paar{
+    padding-left: 5%;
+    padding-top: 30%;
+    padding-bottom: 20%;
+    position:relative;
+
+  }
+
+  .UBahn{
+ 
+    padding-top: 30%;
+    padding-bottom: 20%;
+    position:relative;
+
+  }
+
+  .Mädchen{
+    padding-right: 5%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+  }
+
+
+
+
+
+  #Text{
+    padding-left: 50%;
+    padding-right: 5%;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+
+  #Text2{
+    padding-left: 5%;
+    padding-right: 50%;
+    font-size: 2vw;
+    font-weight: bold;
+  }

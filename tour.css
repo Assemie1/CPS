@@ -1,0 +1,263 @@
+/* BODY */
+body {
+  --bkg-color: rgb(255, 255, 255);
+  --text-color: rgb(33, 33, 33);
+}
+
+body.dark-theme {
+  --bkg-color: rgb(33, 33, 33);
+  --text-color: rgb(247, 247, 247);
+}
+
+
+body{
+  background-color: var(--bkg-color);
+  color: var(--text-color);
+  font-family: Verdana;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+/* Add a black background color to the top navigation */
+.topnav {
+  border-radius: 30px;
+  border-color: white;
+  background-color: rgb(91, 87, 92);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: rgb(247, 247, 247);
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover, .dropdown:hover .dropdownbtn {
+  background-color:  rgb(34, 31, 31);
+  color: rgb(255, 255, 255);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:  rgb(255, 65, 55);
+  color: rgb(34, 31, 31);
+}
+
+/*Dropdown*/
+
+.dropdown{
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdownbtn {
+  font-family: Verdana;
+  border: none;
+  outline: none;
+  background-color: rgb(91, 87, 92);
+  color: rgb(247, 247, 247);
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 16px;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(91, 87, 92);
+}
+
+.dropdown-content a {
+  float: none;
+  display: block;
+  color: rgb(247, 247, 247);
+  text-align: left;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 16px;
+}
+
+.dropdown-content a:hover {
+  background-color:  rgb(34, 31, 31);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.popup {
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: rgb(255, 183, 55);
+  color: var(--text-color);
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  left: 60px;
+}
+
+
+
+/*TEXT HOME*/
+.StartText{
+  text-align: center;
+
+}
+
+#btnDL{ 
+  float: right;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border: none;
+  appearance: none;
+  background-color: inherit;
+}
+
+#modeswitch {
+  max-width: 4vw;
+  height: auto;
+}
+
+
+
+
+#knopf{
+  position: fixed;
+}
+
+
+
+.Bilder{
+
+}
+
+#eifel{
+  z-index: -1;
+  border-radius: 40px;
+  position: absolute;
+  max-width: 40%;
+  height: auto;
+  margin-left: 5%;
+}
+
+#Eifelascii{
+  z-index: 1;
+  border-radius: 40px;
+  position: absolute;
+  max-width: 40%;
+  height: auto;
+  margin-left: 5%;
+}
+
+#Moewe{
+  right: 0;
+  margin-right: 5%;
+  border-radius: 40px;
+  max-width: 40%;
+  height: auto;
+  position: absolute;
+}
+
+#Moeweascii{
+  right: 0;
+  margin-right: 5%;
+  border-radius: 40px;
+  position: absolute;
+  max-width: 40%;
+  height: auto;
+}
+
+#Weg{  
+  margin-right: 5%;
+  margin-top: 35%;
+  right: 0;
+  border-radius: 40px;
+  max-width: 40%;
+  height: auto;
+  position: absolute;
+}
+
+#Wegascii{
+  margin-right: 5%;
+  margin-top: 35%;
+  right: 0;
+  border-radius: 40px;
+  position: absolute;
+  max-width: 40%;
+  height: auto;
+}
+
+#Moos{  
+  margin-right: 5%;
+  margin-top: 35%;
+  right: 0;
+  border-radius: 40px;
+  max-width: 40%;
+  height: auto;
+  position: absolute;
+}
+
+#Moosascii{
+  margin-right: 5%;
+  margin-top: 35%;
+  right: 0;
+  border-radius: 40px;
+  position: absolute;
+  max-width: 40%;
+  height: auto;
+}
+
+#section1{
+  position: relative;
+}
+#section2{
+  position: absolute;
+  margin-top: 80%;
+}
+
+.text{
+  margin-top: 5000px;
+  position: absolute;
+}
+
+
+/*FOOTER*/
+footer {
+  border-radius: 30px;
+  border-color: white;
+  text-align: center;
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(91, 87, 92);
+  margin-top: 100px;
+}
