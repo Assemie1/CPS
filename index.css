@@ -136,7 +136,7 @@ html {
   }
 
   #modeswitch {
-    max-width: 4vw;
+    width: 5vw;
     height: auto;
   }
   
@@ -149,9 +149,9 @@ html {
 
   .startwave{
     margin-top: 5%;
-    width: 101.3%;
+    width: 100.9%;
     margin-left: -0.9%;
-    height: 150px;
+    height: 8vw;
   }
   
   #startbild{

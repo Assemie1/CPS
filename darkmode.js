@@ -12,6 +12,7 @@ if(mode == "dark"){
   light = false;
   mode = "dark";
   localStorage.setItem("mode", mode);
+  document.getElementById("startbild").src="bilder/catchinghell.png"
 }
 
 
@@ -21,7 +22,7 @@ btn.addEventListener("click", function () {
       theme = document.body.classList.contains("dark-theme");
       document.body.classList.toggle("dark-theme");
       mode = "dark";
-
+      document.getElementById("startbild").src="bilder/catchinghell.png"
       light = false;
 
     }else{
@@ -29,7 +30,7 @@ btn.addEventListener("click", function () {
       theme = document.body.classList.contains("light-theme");
       document.body.classList.toggle("dark-theme");
       mode = "light";
-
+      document.getElementById("startbild").src="bilder/catching.png"
       light = true;
 
     }
