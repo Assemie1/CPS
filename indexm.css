@@ -23,24 +23,43 @@ body {
     scroll-behavior: smooth;
   }
   
+
   /* NAVBAR */
   /* Add a black background color to the top navigation */
   .topnav {
+    z-index: 1;
+    position: fixed;
     border-radius: 30px;
     border-color: white;
     background-color: rgb(91, 87, 92);
     overflow: hidden;
+    overflow-x: hidden;
+    height: 250px;
+    width: 0;
+    top: 0;
+    padding-top: 60px;
+    
   }
   
   /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
+  .topnav a, .dropdownbtn{
+    left: 0;
+    position: relative;
+    display: block;
+    float:none;
     color: rgb(247, 247, 247);
     text-align: center;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    padding: 14px 16px;
+    padding: 8px 8px 8px 32px;
+    border: none;
+    outline: none;
+    
+  }
+ 
+  .dropdownbtn{
+    width: 100%;
   }
   
   /* Change the color of links on hover */
@@ -55,44 +74,58 @@ body {
     color: rgb(34, 31, 31);
   }
   
+  .topnav .closebtn {
+    width: auto;
+    position: absolute;
+    top: 0;
+    font-size: 36px;
+    visibility: visible;
+  }
+  
+
+  .openbtn {
+    width: auto;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    visibility: visible;
+  }
+  
+  .openbtn:hover {
+    background-color:#444;
+  }
+
   /*Dropdown*/
   
   .dropdown{
-    float: left;
+    float: none;
     overflow: hidden;
+    width: 100%;
   }
   
+  .dropdown-content {
+    display:none;
+    width: 100%;
+  }
   
-  .dropdownbtn {
-    font-family: Verdana;
-    border: none;
-    outline: none;
+  .dropdown-content a {
     background-color: rgb(91, 87, 92);
+    z-index: 2;
+    left: 0;
+    position: relative;
+    display: block;
+    float:none;
     color: rgb(247, 247, 247);
     text-align: center;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    padding: 14px 16px;
-  }
-  
-  
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(91, 87, 92);
-  }
-  
-  .dropdown-content a {
-    float: none;
-    display: block;
-    color: rgb(247, 247, 247);
-    text-align: left;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 14px 16px;
+    padding: 8px 8px 8px 32px;
+    border: none;
+    outline: none;
   }
   
   .dropdown-content a:hover {

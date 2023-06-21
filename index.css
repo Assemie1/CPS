@@ -100,6 +100,17 @@ html {
   display: block;
 }
 
+
+ .openbtn{
+  visibility: hidden;
+  width: 0;
+}
+.closebtn{
+  visibility: hidden;
+  width: 0;
+  padding: 0 0 0 0;
+}
+
 .popup {
   position: relative;
   cursor: pointer;

@@ -187,44 +187,45 @@ html {
     opacity: 100;
   }
 
-  .Speede,.Notre-Dame{
+  .Speede{
     padding-left: 5%;
     position:relative;
 
   }
 
- 
   .Strand{
     padding-right: 5%;
     padding-top: 20%;
-    padding-bottom: 20%;
+
   }
 
 
   .Paar{
     padding-left: 5%;
-    padding-top: 30%;
-    padding-bottom: 20%;
+    padding-top: 45%;
     position:relative;
 
   }
 
   .UBahn{
  
-    padding-top: 30%;
-    padding-bottom: 20%;
+    padding-top: 45%;
+
     position:relative;
+
+  }
+
+  .Notre-Dame{
+    padding-left: 5%;
+    padding-top: 15%;
 
   }
 
   .Mädchen{
     padding-right: 5%;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 15%;
 
   }
-
-
 
 
 
@@ -232,20 +233,23 @@ html {
     padding-left: 50%;
     padding-right: 5%;
     font-size: 2vw;
-    font-weight: bold;
   }
 
   #Text2{
     padding-left: 5%;
     padding-right: 50%;
     font-size: 2vw;
-    font-weight: bold;
   }
 
   #paart{
     padding-left: 50%;
     padding-right: 5%;
     font-size: 2vw;
-    font-weight: bold;
+  }
+
+  #ubahnt{
+    padding-left: 5%;
+    padding-right: 50%;
+    font-size: 2vw;
   }
 

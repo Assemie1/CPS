@@ -147,26 +147,30 @@ html {
     padding-bottom: 5%;
   
   }
+
+
   #BildU{
     border-radius: 40px;
     position: absolute;
-    max-width: 80%;
     height: auto;
+    max-width: 80%;
+
   }
 
   #BildB{
     position: absolute;
     border-radius: 40px;
-    max-width: 80%;
     height: auto;
     z-index: 1;
     opacity: 0;
+    max-width: 80%;
   }
   #BildB:hover{
     opacity: 100;
   }
 
   #Bild2U{
+    right: auto;
     border-radius: 40px;
     position: absolute;
     max-width: 80%;
@@ -174,6 +178,7 @@ html {
   }
 
   #Bild2B{
+    right: auto;
     position: absolute;
     border-radius: 40px;
     max-width: 80%;
@@ -185,35 +190,50 @@ html {
     opacity: 100;
   }
 
-  .Speede,.Notre-Dame{
-    padding: 0 0 0 0;
-    position:relative;
 
+  
+  .Speede{
+    padding: 30% 0 0 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
 
  
   .Strand{
-    padding: 0 0 0 0;
-    position: relative;
+    padding: 80% 0 0 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
 
 
   .Paar{
-    padding: 0 0 0 0;
-
-    position:relative;
-
+    padding: 80% 0 0 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .UBahn{
     padding: 45% 0 0 0;
-
-    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
   }
 
+  .Notre-Dame{
+    padding: 45% 0 0 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
   .Mädchen{
-    padding: 0 0 0 0;
+    padding: 80% 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
   }
@@ -221,9 +241,8 @@ html {
 
   #Text{
     text-align: center;
-    padding-top: 0;
     position: relative;
-    padding: 60% 0 0 0;
+    padding: 30% 0 0 0;
     font-weight: bold;
     font-size: 4vw;
   }
@@ -231,18 +250,24 @@ html {
 
   #Text2{
     text-align: center;
-    padding-top: 0;
     position: relative;
-    padding: 125% 0 0 0;
+    padding: 65% 0 0 0;
     font-weight: bold;
     font-size: 4vw;
   }
 
   #paart{
     text-align: center;
-    padding-top: 0;
     position: relative;
-    padding: 125% 0 0 0;
+    padding: 65% 0 0 0;
+    font-weight: bold;
+    font-size: 4vw;
+  }
+
+  #ubahnt{
+    text-align: center;
+    position: relative;
+    padding: 30% 0 0 0;
     font-weight: bold;
     font-size: 4vw;
   }
