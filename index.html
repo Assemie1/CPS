@@ -11,7 +11,7 @@
 
       </head>
 
-<body >
+<body onresize="resnav()">
 
   <div id="mySidepanel" class="topnav">
     <a  class="closebtn" onclick="closeNav()">×</a>
@@ -21,21 +21,19 @@
       </div>
       <a href="message.html">Message</a>
       <div class="dropdown">
-        <button class="dropdownbtn">
+        <button onclick="openOrte()" class="dropdownbtn" id="orte">
           Orte
           <i class="fa fa-caret-down" aria-hidden="true"></i>
         </button>
-        <div class="dropdown-content">
+        <div id="dropdown" class="dropdown-content">
           <a href="frankfurt.html">Frankfurt</a>
           <a href="newyork.html">New York</a>
         </div>
       </div>
       <a href="evolution.html">Evolution</a>
     </div>
-
-    
   
-    <button class="openbtn" id="openbtn" onclick="openNav()">&#9776; Toggle Sidepanel</button>
+    <button class="openbtn" id="openbtn" onclick="openNav()">&#9776; Menu</button>
 
     <div>
       <span class="popuptext" id="myPopup">This page is under maintenance</span>

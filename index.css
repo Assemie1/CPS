@@ -1,4 +1,6 @@
 /* BODY */
+
+
 body {
   --bkg-color: rgb(255, 255, 255);
   --text-color: rgb(33, 33, 33);
@@ -27,6 +29,8 @@ html {
   border-color: white;
   background-color: rgb(91, 87, 92);
   overflow: hidden;
+
+
 }
 
 /* Style the links inside the navigation bar */
@@ -73,8 +77,6 @@ html {
   padding: 14px 16px;
 }
 
-
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -82,8 +84,8 @@ html {
 }
 
 .dropdown-content a {
-  float: none;
   display: block;
+  float: none;
   color: rgb(247, 247, 247);
   text-align: left;
   text-decoration: none;
@@ -182,4 +184,3 @@ html {
     background: rgba(0, 0, 0, 0.); 
     width: 100%;
   }
-

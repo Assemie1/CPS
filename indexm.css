@@ -87,11 +87,12 @@ body {
     width: auto;
     font-size: 20px;
     cursor: pointer;
-    background-color: #111;
-    color: white;
+    background-color: rgb(91, 87, 92);
+    color: rgb(247, 247, 247);
     padding: 10px 15px;
     border: none;
     visibility: visible;
+    border-radius: 15px;
   }
   
   .openbtn:hover {
