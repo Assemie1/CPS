@@ -38,7 +38,6 @@ body {
     width: 0;
     top: 0;
     padding-top: 60px;
-    
   }
   
   /* Style the links inside the navigation bar */
@@ -52,7 +51,7 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 8px;
     border: none;
     outline: none;
     
@@ -84,6 +83,7 @@ body {
   
 
   .openbtn {
+    height: auto;
     width: auto;
     font-size: 20px;
     cursor: pointer;
@@ -123,7 +123,7 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 8px;
     border: none;
     outline: none;
   }
@@ -143,22 +143,23 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
   }
   
   /* The actual popup */
   .popuptext {
     visibility: hidden;
-    width: 160px;
+    width: 200px;
     background-color: rgb(255, 183, 55);
     color: var(--text-color);
     text-align: center;
     border-radius: 6px;
-    padding: 8px 0;
+    padding: 8px 0 8px 0;
     position: absolute;
     z-index: 1;
-    left: 60px;
+    left: auto;
+
   }
-  
   
   
   

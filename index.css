@@ -103,11 +103,12 @@ html {
 
  .openbtn{
   visibility: hidden;
-  width: 0;
+  height: 0;
+  
 }
 .closebtn{
   visibility: hidden;
-  width: 0;
+  width: 0px;
   padding: 0 0 0 0;
 }
 
@@ -131,7 +132,7 @@ html {
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  left: 60px;
+  left: 100px;
 }
 
 
