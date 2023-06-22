@@ -12,8 +12,9 @@ function openNav() {
 
   }
 
+
   function openOrte() {
-    if (zu){
+    /*if (zu){
       document.getElementById("dropdown").style.display = "block";
       document.getElementById("orte").style.backgroundColor= "rgb(34, 31, 31)"
       console.log("GEH A")
@@ -24,7 +25,9 @@ function openNav() {
       console.log("GEH ZU")
       zu = true
     }
+    */
   }
+
 
 function resnav(){
   if (window.innerWidth > 700){
