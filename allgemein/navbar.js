@@ -50,7 +50,7 @@ setTimeout(function(){
         document.getElementById("subNavBarBtn").style.backgroundColor = "rgb(255, 65, 55)";
         document.getElementById("subNavBarBtn").style.color = "rgb(34, 31, 31)";
       }
-      if (currentPage === ""){
+      if (currentPage === null){
         document.getElementById("index.html").style.backgroundColor = "rgb(255, 65, 55)";
         document.getElementById("index.html").style.color = "rgb(34, 31, 31)";
       }
