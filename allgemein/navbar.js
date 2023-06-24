@@ -72,6 +72,8 @@ function openNav() {
 
 
   function openSubNavBar() {
+    var currentPage = window.location.pathname.split("/").pop();
+
     if (zu){
       document.getElementById("subNavBarContent").style.display = "block";
       document.getElementById("subNavBarBtn").style.backgroundColor= "rgb(34, 31, 31)"
@@ -80,7 +82,12 @@ function openNav() {
       zu = false
     } else {
       document.getElementById("subNavBarContent").style.display = "none";
-      document.getElementById("subNavBarBtn").style.backgroundColor= "rgb(91, 87, 92)"
+      if (currentPage === "frankfurt.html" || currentPage === "newyork.html"){
+        document.getElementById("subNavBarBtn").style.backgroundColor = "rgb(255, 65, 55)";
+        document.getElementById("subNavBarBtn").style.color = "rgb(34, 31, 31)";
+      }else{
+        document.getElementById("subNavBarBtn").style.backgroundColor= "rgb(91, 87, 92)"
+    }
       console.log("GEH ZU")
       zu = true
     }

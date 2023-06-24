@@ -25,10 +25,10 @@ html {
 /* NAVBAR */
 /* Add a black background color to the top navigation */
 
-
-
   #btnDL{ 
     float: right;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 1%;
     margin-bottom: 1%;
     border: none;
