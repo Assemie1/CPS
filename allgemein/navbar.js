@@ -33,11 +33,7 @@ setTimeout(function(){
   // Hole den aktuellen Dateinamen der Seite
   var currentPage = window.location.pathname.split("/").pop();
 
-  console.log(currentPage)
-
   var links = ["index.html", "message.html", "frankfurt.html", "newyork.html", "evolution.html"]
-
-  console.log(links[0])
 
   for (var i = 0; i < links.length; i++) {
     var link = links[i];
@@ -49,13 +45,15 @@ setTimeout(function(){
       if (link === "frankfurt.html" || link === "newyork.html"){
         document.getElementById("subNavBarBtn").style.backgroundColor = "rgb(255, 65, 55)";
         document.getElementById("subNavBarBtn").style.color = "rgb(34, 31, 31)";
-      }else if(currentPage === ""){
-        document.getElementById("index.html").style.backgroundColor = "rgb(255, 65, 55)";
-        document.getElementById("index.html").style.color = "rgb(34, 31, 31)";
-
       }
 
+    }else if(currentPage === ""){
+      document.getElementById("index.html").style.backgroundColor = "rgb(255, 65, 55)";
+      document.getElementById("index.html").style.color = "rgb(34, 31, 31)";
+
     }
+
+
   }
 }, 150);
 
