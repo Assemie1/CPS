@@ -20,19 +20,6 @@ html {
   scroll-behavior: smooth;
 }
 
-  #btnDL{ 
-    float: right;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    border: none;
-    appearance: none;
-    background-color: inherit;
-  }
-  
-  #modeswitch {
-    width: 5vw;
-    height: auto;
-  }
 
   /*TEXT HOME*/
   .StartText{

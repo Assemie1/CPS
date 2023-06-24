@@ -1,11 +1,16 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
 .Topnav {
   border-radius: 30px;
   border-color: white;
   background-color: rgb(91, 87, 92);
   overflow: hidden;
+  margin-right: 20px;
   margin-top: 20px;
   margin-left: 20px;
-  margin-right: 20px;
 
 }
 
@@ -252,3 +257,18 @@
   }
 }
   
+
+#btnDL{ 
+  float: right;
+  margin-right: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border: none;
+  appearance: none;
+  background-color: inherit;
+}
+
+#modeswitch {
+  width: 5vw;
+  height: auto;
+}

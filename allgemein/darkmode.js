@@ -1,9 +1,11 @@
+setTimeout(function(){
 var light = true;
 var mode;
 var theme;
 const btn = document.querySelector(".btn-toggle");
 
 mode = localStorage.getItem("mode")
+
 
 if(mode == "dark"){
   document.getElementById("modeswitch").src="bilder/darkmode.png";
@@ -53,3 +55,4 @@ btn.addEventListener("click", function () {
     localStorage.setItem("mode", mode);
 
 });
+}, 110);
