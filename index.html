@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="indexm.css">
+        <link rel="stylesheet" href="allgemein\navbar.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>CPS</title>
 
@@ -13,27 +14,8 @@
 
 <body onresize="resnav()">
 
-  <div id="mySidepanel" class="topnav">
-    <a  class="closebtn" onclick="closeNav()">×</a>
-    <a class="active" href="index.html">Home</a>
-      <div  class="popup"  >
-        <a onclick="myFunction()">Tour</a>
-      </div>
-      <a href="message.html">Message</a>
-      <div class="dropdown">
-        <button  onclick="openOrte()" class="dropdownbtn" id="orte">
-          Orte
-          <i class="fa fa-caret-down" aria-hidden="true"></i>
-        </button>
-        <div id="dropdown" class="dropdown-content">
-          <a href="frankfurt.html">Frankfurt</a>
-          <a href="newyork.html">New York</a>
-        </div>
-      </div>
-      <a href="evolution.html">Evolution</a>
-    </div>
+  <div id="navbarContainer"></div>
   
-    <button class="openbtn" id="openbtn" onclick="openNav()">&#9776; Menu</button>
 
     <div>
       <span class="popuptext" id="myPopup">This page is under maintenance</span>
@@ -53,9 +35,9 @@
 
 
 
-  <script language="javascript" type="text/javascript" src="darkmode.js"></script>
-  <script language="javascript" type="text/javascript" src="alerts.js"></script>
-  <script language="javascript" type="text/javascript" src="navbar.js"></script>
+  <script language="javascript" type="text/javascript" src="allgemein\darkmode.js"></script>
+  <script language="javascript" type="text/javascript" src="allgemein\alerts.js"></script>
+  <script language="javascript" type="text/javascript" src="allgemein\navbar.js"></script>
 
 </body>
 

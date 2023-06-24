@@ -9,26 +9,13 @@
 
         <link rel="stylesheet" href="evolution.css">
         <link rel="stylesheet" href="evolutionm.css">
+        <link rel="stylesheet" href="allgemein\navbar.css">
 
       </head>
 
-<body >
+<body onresize="resnav()">
 
-  <div class="topnav">
-    <a href="index.html">Home</a>
-    <div  class="popup"  >
-      <a onclick="myFunction()">Tour</a>
-    </div>
-    <a href="message.html">Message</a>
-    <div class="dropdown">
-      <button class="dropdownbtn">Orte</button>
-      <div class="dropdown-content">
-        <a href="frankfurt.html">Frankfurt</a>
-        <a href="newyork.html">New York</a>
-      </div>
-    </div>
-    <a class="active" href="evolution.html">Evolution</a>
-  </div>
+  <div id="navbarContainer"></div>
 
   <div>
     <span class="popuptext" id="myPopup">This page is under maintenance</span>
@@ -68,7 +55,7 @@
     <p id="ubahnt">Es ist beeindruckend wie sich ein Bild verändert wenn man nur jegliche Farbe entfernt. Man sagt nicht ohne Grund das Bilder mit Schwarz-weiß "gerettet" werden könnne</p>
 
     <div class="Notre-Dame">
-        <img id="BildU" src="bilder\Evolution\Unbearbeitet\IMG_6429.jpg" width="5346" height="3564">
+        <img id="BildU" src="bilder\Evolution\Unbearbeitet\IMG_6429.jpg">
         <img id="BildB" src="bilder\Evolution\IMG_6429.jpg">
     </div>
     <p id="Text">Nicht nur Menschen können in Bildern Störend sein. Auch Objekte können die Komposition verschlechtern. Und nicht zu vergessen ohne Nachkorrektur wäre sehr viel eine ziemnlich schiefe Angelegenheit</p>
@@ -82,9 +69,9 @@
     </div>
 
 
-  <script language="javascript" type="text/javascript" src="darkmode.js"></script>
-  <script language="javascript" type="text/javascript" src="alerts.js"></script>
-
+    <script language="javascript" type="text/javascript" src="allgemein\darkmode.js"></script>
+    <script language="javascript" type="text/javascript" src="allgemein\alerts.js"></script>
+    <script language="javascript" type="text/javascript" src="allgemein\navbar.js"></script>
 </body>
 
 </html>
