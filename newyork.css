@@ -1,0 +1,29 @@
+/* BODY */
+body {
+    --bkg-color: rgb(255, 255, 255);
+    --text-color: rgb(33, 33, 33);
+  }
+  
+  body.dark-theme {
+    --bkg-color: rgb(33, 33, 33);
+    --text-color: rgb(247, 247, 247);
+  }
+  
+  
+  body{
+    background-color: var(--bkg-color);
+    color: var(--text-color);
+    font-family: Verdana;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  
+    /*TEXT HOME*/
+    .StartText{
+      text-align: center;
+      padding-bottom: 5%;
+    
+    }

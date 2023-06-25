@@ -55,18 +55,21 @@ setTimeout(function(){
 
 
   }
-}, 150);
+}, 200);
 
 
 
 function openNav() {
     document.getElementById("topnav").style.width = "200px";
     document.getElementById("topnavM").style.visibility = "hidden";
+
   }
   
   function closeNav() {
     document.getElementById("topnav").style.width = "0%";
     document.getElementById("topnavM").style.visibility = "visible";
+    document.getElementById("myPopup").style.visibility = "hidden"
+
 
   }
 

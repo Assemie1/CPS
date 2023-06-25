@@ -55,4 +55,4 @@ btn.addEventListener("click", function () {
     localStorage.setItem("mode", mode);
 
 });
-}, 110);
+}, 200);

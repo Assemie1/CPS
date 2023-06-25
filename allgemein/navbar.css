@@ -95,17 +95,12 @@ html {
   padding: 0 0 0 0;
 }
 
-.Popup {
-  position: relative;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
+
 
 /* The actual popup */
-.popuptext {
+.Popuptext {
+  margin-left: 20px;
+  margin-top: -20px;
   visibility: hidden;
   width: 160px;
   background-color: rgb(255, 183, 55);
@@ -189,7 +184,7 @@ html {
   }
   
   .Topnav .CloseMenu {
-    width: auto;
+    width: 40%;
     position: absolute;
     top: 0;
     font-size: 36px;
@@ -252,18 +247,12 @@ html {
     display: block;
   }
   
-  .popup {
-    position: relative;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 
-  }
-  
   /* The actual popup */
-  .popuptext {
+  .Popuptext {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 110px;
     visibility: hidden;
     width: 200px;
     background-color: rgb(255, 183, 55);
