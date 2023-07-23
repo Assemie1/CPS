@@ -8,14 +8,15 @@ html {
   border-color: white;
   background-color: rgb(91, 87, 92);
   overflow: hidden;
-  margin-right: 20px;
   margin-top: 20px;
   margin-left: 20px;
+  margin-right: 20px;
 
 }
 
 /* Style the links inside the navigation bar */
 .Topnav a {
+  font-family: Verdana;
   float: left;
   color: rgb(247, 247, 247);
   text-align: center;
@@ -118,8 +119,8 @@ html {
 #btnDL{ 
   float: right;
   margin-right: 20px;
-  margin-top: 1%;
   margin-bottom: 1%;
+  margin-top: 1%;
   border: none;
   appearance: none;
   background-color: inherit;

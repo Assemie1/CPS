@@ -13,7 +13,7 @@ body.dark-theme {
 body{
   background-color: var(--bkg-color);
   color: var(--text-color);
-  font-family: Verdana;
+  font-family: Impact;
 }
 
 html {
@@ -25,10 +25,19 @@ html {
   .StartText{
     text-align: center;
     padding-bottom: 5%;
-  
+
   }
+
+  #uberschrift{
+    font-size: 3vw;
+  }
+
+  #unterschrift{
+    font-size: 2vw;
+  }
+
   #BildU{
-    border-radius: 40px;
+    border-radius: 10px;
     position: absolute;
     max-width: 35%;
     height: auto;
@@ -37,7 +46,7 @@ html {
 
   #BildB{
     position: absolute;
-    border-radius: 40px;
+    border-radius: 10px;
     max-width: 35%;
     height: auto;
     z-index: 1;
@@ -49,7 +58,7 @@ html {
 
   #Bild2U{
     right: 5%;
-    border-radius: 40px;
+    border-radius: 10px;
     position: absolute;
     max-width: 35%;
     height: auto;
@@ -59,7 +68,7 @@ html {
   #Bild2B{
     right: 5%;
     position: absolute;
-    border-radius: 40px;
+    border-radius: 10px;
     max-width: 35%;
     height: auto;
     z-index: 1;
@@ -77,63 +86,70 @@ html {
 
   .Strand{
     padding-right: 5%;
-    padding-top: 20%;
+    padding-top: 25%;
 
   }
 
 
   .Paar{
     padding-left: 5%;
-    padding-top: 45%;
+    padding-top: 50%;
 
 
   }
 
   .UBahn{
- 
-    padding-top: 45%;
-
-
-
+    padding-top: 50%;
   }
 
   .Notre-Dame{
     padding-left: 5%;
-    padding-top: 15%;
+    padding-top: 20%;
 
   }
 
   .Mädchen{
     padding-right: 5%;
-    padding-top: 15%;
+    padding-top: 20%;
 
   }
 
+  .Schloss{
+    padding-left: 5%;
+    padding-top: 50%;
+
+
+  }
 
 
   #Text{
     padding-left: 50%;
     padding-right: 5%;
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   #Text2{
     padding-left: 5%;
     padding-right: 50%;
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: right;
   }
 
   #paart{
     padding-left: 50%;
     padding-right: 5%;
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   #ubahnt{
     padding-left: 5%;
     padding-right: 50%;
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: right;
   }
 
+  #schlosst{
+    padding-left: 50%;
+    padding-right: 5%;
+    font-size: 1.5vw;
+  }

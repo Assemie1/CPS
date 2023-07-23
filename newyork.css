@@ -13,7 +13,7 @@ body {
   body{
     background-color: var(--bkg-color);
     color: var(--text-color);
-    font-family: Verdana;
+    font-family: Impact;
   }
   
   html {
@@ -24,6 +24,38 @@ body {
     /*TEXT HOME*/
     .StartText{
       text-align: center;
-      padding-bottom: 5%;
+      padding-bottom: 2%;
+
+    }
+  
+    #uberschrift{
+      font-size: 3vw;
+ 
+    }
+  
+    #unterschrift{
+      font-size: 2vw;
+    }
+
+    #startIMGNY{
+      width: 100%;
+    }
+
+    #t1NY{
+      text-align: center;
+      font-size: 1.5vw;
+    }
+
+    #img1NY{
+      margin-top: 2%;
+      margin-left: 5%;
+      border-radius: 10px;
+      max-width: 40%;
+    }
     
+    #img2NY{
+      margin-top: 2%;
+      margin-left: 10%;
+      border-radius: 10px;
+      max-width: 40%;
     }

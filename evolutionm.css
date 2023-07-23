@@ -46,7 +46,7 @@ html {
 
 
   #BildU{
-    border-radius: 40px;
+    border-radius: 10px;
     position: absolute;
     height: auto;
     max-width: 80%;
@@ -55,7 +55,7 @@ html {
 
   #BildB{
     position: absolute;
-    border-radius: 40px;
+    border-radius: 10px;
     height: auto;
     z-index: 1;
     opacity: 0;
@@ -67,7 +67,7 @@ html {
 
   #Bild2U{
     right: auto;
-    border-radius: 40px;
+    border-radius: 10px;
     position: absolute;
     max-width: 80%;
     height: auto;
@@ -76,7 +76,7 @@ html {
   #Bild2B{
     right: auto;
     position: absolute;
-    border-radius: 40px;
+    border-radius: 10px;
     max-width: 80%;
     height: auto;
     z-index: 1;
@@ -131,7 +131,13 @@ html {
     justify-content: center;
     align-items: center;
 
+  }
 
+  .Schloss{
+    padding: 80% 0 0 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
 
 
@@ -161,6 +167,13 @@ html {
     text-align: center;
     position: relative;
     padding: 30% 0 0 0;
+    font-size: 4vw;
+  }
+
+  #schlosst{
+    text-align: center;
+    position: relative;
+    padding: 65% 0 0 0;
     font-size: 4vw;
   }
 

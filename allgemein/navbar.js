@@ -101,7 +101,7 @@ function openNav() {
 function resnav(){
   if (window.innerWidth > 700){
     document.getElementById("topnavM").style.visibility = "hidden";
-    document.getElementById("topnav").style.width = "auto";
+    document.getElementById("topnav").style.width = "100%";
   }else{
     document.getElementById("topnavM").style.visibility = "visible";
     document.getElementById("topnav").style.width = "0";
