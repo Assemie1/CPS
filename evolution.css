@@ -29,7 +29,7 @@ html {
   }
 
   #uberschrift{
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
 
   #unterschrift{
@@ -41,7 +41,8 @@ html {
     position: absolute;
     max-width: 35%;
     height: auto;
-    z-index: -1;
+
+    box-shadow: 8px 8px var(--text-color);
   }
 
   #BildB{
@@ -49,7 +50,7 @@ html {
     border-radius: 10px;
     max-width: 35%;
     height: auto;
-    z-index: 1;
+
     opacity: 0;
   }
   #BildB:hover{
@@ -57,99 +58,126 @@ html {
   }
 
   #Bild2U{
-    right: 5%;
+    right: 10%;
     border-radius: 10px;
     position: absolute;
     max-width: 35%;
     height: auto;
-    z-index: -1;
+
+    box-shadow: 8px 8px var(--text-color);
   }
 
   #Bild2B{
-    right: 5%;
+    right: 10%;
     position: absolute;
     border-radius: 10px;
     max-width: 35%;
     height: auto;
-    z-index: 1;
+
     opacity: 0;
   }
+
   #Bild2B:hover{
     opacity: 100;
   }
 
   .Speede{
-    padding-left: 5%;
-    position:relative;
+    margin-left: 10%;
 
   }
 
   .Strand{
-    padding-right: 5%;
-    padding-top: 25%;
+    margin-right: 10%;
+    margin-top: 20%;
 
   }
 
 
   .Paar{
-    padding-left: 5%;
-    padding-top: 50%;
+    margin-left: 10%;
+    margin-top: 50%;
 
 
   }
 
   .UBahn{
-    padding-top: 50%;
+    margin-top: 50%;
   }
 
   .Notre-Dame{
-    padding-left: 5%;
-    padding-top: 20%;
+    margin-left: 10%;
+    margin-top: 20%;
 
   }
 
   .Mädchen{
-    padding-right: 5%;
-    padding-top: 20%;
+    margin-right: 10%;
+    margin-top: 20%;
+    margin-left: 10%;
 
   }
 
   .Schloss{
-    padding-left: 5%;
-    padding-top: 50%;
+    margin-left: 10%;
+    margin-top: 50%;
 
 
   }
 
 
   #Text{
-    padding-left: 50%;
-    padding-right: 5%;
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    border-radius: 10px;
+    max-width: 35%;
+    background-color: rgb(91, 87, 92);
+    box-shadow: -8px 8px var(--text-color);
+    margin-left: 55%;
     font-size: 1.5vw;
   }
 
   #Text2{
-    padding-left: 5%;
-    padding-right: 50%;
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    border-radius: 10px;
+    max-width: 35%;
+    background-color: rgb(91, 87, 92);
+    box-shadow: -8px 8px var(--text-color);
+    margin-left: 10%;
     font-size: 1.5vw;
     text-align: right;
   }
 
   #paart{
-    padding-left: 50%;
-    padding-right: 5%;
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    border-radius: 10px;
+    max-width: 35%;
+    background-color: rgb(91, 87, 92);
+    box-shadow: -8px 8px var(--text-color);
+    margin-left: 55%;
     font-size: 1.5vw;
   }
 
   #ubahnt{
-    padding-left: 5%;
-    padding-right: 50%;
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    border-radius: 10px;
+    max-width: 35%;
+    background-color: rgb(91, 87, 92);
+    box-shadow: -8px 8px var(--text-color);
+    margin-left: 10%;
     font-size: 1.5vw;
     text-align: right;
   }
 
   #schlosst{
-    padding-left: 50%;
-    padding-right: 5%;
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    border-radius: 10px;
+    max-width: 35%;
+    background-color: rgb(91, 87, 92);
+    box-shadow: -8px 8px var(--text-color);
+    margin-left: 55%;
     font-size: 1.5vw;
   }

@@ -79,8 +79,8 @@ function openNav() {
 
     if (zu){
       document.getElementById("subNavBarContent").style.display = "block";
-      document.getElementById("subNavBarBtn").style.backgroundColor= "rgb(34, 31, 31)"
-      document.getElementById("subNavBarBtn").style.color= "rgb(247, 247, 247)"
+      document.getElementById("subNavBarBtn").style.backgroundColor= "var(--bkg-color)"
+      document.getElementById("subNavBarBtn").style.color= "var(--text-color)"
       console.log("GEH AUF")
       zu = false
     } else {
@@ -89,7 +89,8 @@ function openNav() {
         document.getElementById("subNavBarBtn").style.backgroundColor = "rgb(255, 65, 55)";
         document.getElementById("subNavBarBtn").style.color = "rgb(34, 31, 31)";
       }else{
-        document.getElementById("subNavBarBtn").style.backgroundColor= "rgb(91, 87, 92)"
+        document.getElementById("subNavBarBtn").style.backgroundColor= "var(--nb-color)"
+        document.getElementById("subNavBarBtn").style.color= "var(--text-color)"
     }
       console.log("GEH ZU")
       zu = true

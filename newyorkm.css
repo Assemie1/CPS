@@ -1,0 +1,79 @@
+@media only screen and (max-width: 700px) {
+
+    /* BODY */
+    body {
+        --bkg-color: rgb(255, 255, 255);
+        --text-color: rgb(33, 33, 33);
+    }
+
+    body.dark-theme {
+        --bkg-color: rgb(33, 33, 33);
+        --text-color: rgb(247, 247, 247);
+    }
+
+
+    body {
+        background-color: var(--bkg-color);
+        color: var(--text-color);
+        font-family: Impact;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+
+    #btnDL {
+        float: right;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        border: none;
+        appearance: none;
+        background-color: inherit;
+    }
+
+    #modeswitch {
+        width: 50px;
+        height: auto;
+    }
+
+    /*TEXT HOME*/
+    .StartText {
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    #uberschrift {
+        font-size: 5vw;
+    }
+
+    #unterschrift {
+        font-size: 3vw
+    }
+
+    #t1NY{
+        font-size: 2.5vw;
+    }
+
+    .imgHY{
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    #img1NY{
+        margin: 0 0 0 10%;
+        max-width: 80%;
+        height: auto;
+        text-align: center;
+    }
+
+    #img2NY{
+        margin: 0 0 0 10%;
+        max-width: 80%;
+        height: auto;
+        text-align: center;
+
+    }
+
+}

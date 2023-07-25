@@ -15,14 +15,17 @@ body.dark-theme {
 body{
   background-color: var(--bkg-color);
   color: var(--text-color);
-  font-family: Verdana;
+  font-family: Impact;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-
+  #navbarcontainer{
+    z-index: 99;
+    position: absolute;
+  }
   #btnDL{ 
     float: right;
     margin-top: 1%;
@@ -41,23 +44,27 @@ html {
   .StartText{
     text-align: center;
     padding-bottom: 5%;
-  
   }
 
+  #uberschrift{
+    font-size: 5vw;
+  }
+
+  #unterschrift{
+    font-size: 3vw
+  }
 
   #BildU{
     border-radius: 10px;
     position: absolute;
     height: auto;
     max-width: 80%;
-
   }
 
   #BildB{
     position: absolute;
     border-radius: 10px;
     height: auto;
-    z-index: 1;
     opacity: 0;
     max-width: 80%;
   }
@@ -66,11 +73,10 @@ html {
   }
 
   #Bild2U{
-    right: auto;
     border-radius: 10px;
     position: absolute;
-    max-width: 80%;
     height: auto;
+    max-width: 80%;
   }
 
   #Bild2B{
@@ -79,7 +85,6 @@ html {
     border-radius: 10px;
     max-width: 80%;
     height: auto;
-    z-index: 1;
     opacity: 0;
   }
   #Bild2B:hover{
@@ -89,7 +94,7 @@ html {
 
   
   .Speede{
-    padding: 30% 0 0 0;
+    margin: 30% 0 0 0;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +102,7 @@ html {
 
  
   .Strand{
-    padding: 80% 0 0 0;
+    margin: 75% 0 0 0;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -105,14 +110,14 @@ html {
 
 
   .Paar{
-    padding: 80% 0 0 0;
+    margin: 75% 0 0 0;
     display:flex;
     justify-content: center;
     align-items: center;
   }
 
   .UBahn{
-    padding: 45% 0 0 0;
+    margin: 40% 0 0 0;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -120,13 +125,13 @@ html {
   }
 
   .Notre-Dame{
-    padding: 45% 0 0 0;
+    margin: 40% 0 0 0;
     display:flex;
     justify-content: center;
     align-items: center;
   }
   .Mädchen{
-    padding: 80% 0 0 0;
+    padding: 55% 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +139,7 @@ html {
   }
 
   .Schloss{
-    padding: 80% 0 0 0;
+    margin: 75% 0 0 0;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -142,39 +147,44 @@ html {
 
 
   #Text{
+    max-width: 80%;
     text-align: center;
     position: relative;
-    padding: 30% 0 0 0;
-    font-size: 4vw;
+    margin: 35% 0 0 10%;
+    font-size: 2.5vw;
   }
 
 
   #Text2{
+    max-width: 80%;
     text-align: center;
     position: relative;
-    padding: 65% 0 0 0;
-    font-size: 4vw;
+    margin: 70% 0 0 10%;
+    font-size: 2.5vw;
   }
 
   #paart{
+    max-width: 80%;
     text-align: center;
     position: relative;
-    padding: 65% 0 0 0;
-    font-size: 4vw;
+    margin: 70% 0 0 10%;
+    font-size: 2.5vw;
   }
 
   #ubahnt{
+    max-width: 80%;
     text-align: center;
     position: relative;
-    padding: 30% 0 0 0;
-    font-size: 4vw;
+    margin: 35% 0 0 10%;
+    font-size: 2.5vw;
   }
 
   #schlosst{
+    max-width: 80%;
     text-align: center;
     position: relative;
-    padding: 65% 0 0 0;
-    font-size: 4vw;
+    margin: 70% 0 0 10%;
+    font-size: 2.5vw;
   }
 
 }
