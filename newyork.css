@@ -24,67 +24,97 @@ body {
   }
   
   #btnDL{ 
-    margin-top: -15%;
+    margin-top: -60px;
   }
   
     /*TEXT HOME*/
     .StartText{
+      margin-top: 1%;
       text-align: center;
-      padding-bottom: 2%;
       border-radius: 10px;
       background-color: var(--box-color);
       width: auto;
-      padding: 1% 1% 1% 1%;
     }
   
     #uberschrift{
+      padding-top: 1%;
       font-size: 3vw;
 
     }
   
     #unterschrift{
+      padding-bottom: 1%;
       font-size: 2vw;
     }
 
     #startIMGNY{
+      margin-top: 1%;
       border-radius: 10px;
       width: 100%;
     }
 
-    #t1NY{
+    #t1NY, #t2NY, #t3NY{
       text-align: center;
       font-size: 1.5vw;
       border-radius: 10px;
       background-color: var(--box-color);
       width: auto;
-      padding: 1% 1% 1% 1%;
-    }
-
-    #t2NY{
-      text-align: center;
-      font-size: 1.5vw;
-      border-radius: 10px;
-      background-color: var(--box-color);
-      width: auto;
-      padding: 1% 1% 1% 1%;
+      padding: 1% 0% 1%;
     }
 
     .ImgHY{
       border-radius: 10px;
       background-color: var(--box-color);
-      padding: 1% 1% 1% 1%;
+      padding-top: 1%;
+      padding-bottom: 1%;
     }
 
-    #img1NY{
-      margin-top: 1%;
-      margin-left: 5%;
-      border-radius: 10px;
-      max-width: 40%;
-    }
-    
-    #img2NY{
+    #img1NY, #img2NY, #img3NY, #img4NY{
       margin-top: 1%;
       margin-left: 10%;
       border-radius: 10px;
-      max-width: 40%;
+      max-width: 35%;
+    }
+
+    
+    #t4NY{
+      float:left;
+      margin-top: 1%;
+      text-align: center;
+      margin-left: 10%;
+      font-size: 1.5vw;
+      border-radius: 10px;
+      background-color: var(--box-color);
+      width: 35%;
+
+    }
+    
+    #t5NY{
+      float: right;
+      text-align: center;
+      max-width: 35%;
+      margin-right: 9.75%;
+      margin-top: 1%;
+      font-size: 1.5vw;
+      border-radius: 10px;
+      background-color: var(--box-color);
+
+    }
+
+    #t6NY{
+      margin-top: 8%;
+      text-align: center;
+      font-size: 1.5vw;
+      border-radius: 10px;
+      background-color: var(--box-color);
+      width: auto;
+      padding: 1% 0% 1%;
+    }
+
+    #img5NY{
+      max-width: 70%;
+      height: auto;
+      margin-top: 1%;
+      margin-left: 15%;
+      border-radius: 10px;
     }

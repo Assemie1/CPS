@@ -18,6 +18,7 @@ html {
 
 
 #btnDL{ 
+  margin-right: 1%;
   float: right;
   border: none;
   appearance: none;
@@ -37,7 +38,6 @@ html {
     
   #btnDL{ 
     float: right;
-    margin-bottom: 1%;
     border: none;
     appearance: none;
     background-color: inherit;

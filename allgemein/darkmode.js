@@ -81,6 +81,6 @@ btn.addEventListener("click", function () {
     localStorage.setItem("mode", mode);
 
 });
-}, 300);
+}, 600);
 
 

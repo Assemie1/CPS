@@ -19,8 +19,8 @@ html {
 .Topnav {
   border-color: white;
   overflow: hidden;
-  width: 100%;
-  border-bottom: 6px solid var(--nav-color);
+  border-radius: 10px;
+
 }
 
 #topnav:hover{
@@ -198,15 +198,16 @@ html {
     width: 40%;
     position: absolute;
     top: 0;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bolder;
     visibility: visible;
   }
   
 
   .TopnavM {
-    margin-top: 2%;
-    margin-left: 2%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
     height: auto;
     width: auto;
     font-size: 20px;

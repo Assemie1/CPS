@@ -1,15 +1,6 @@
 @media only screen and (max-width: 700px) {
 
     /* BODY */
-    body {
-        --bkg-color: rgb(255, 255, 255);
-        --text-color: rgb(33, 33, 33);
-    }
-
-    body.dark-theme {
-        --bkg-color: rgb(33, 33, 33);
-        --text-color: rgb(247, 247, 247);
-    }
 
 
     body {
@@ -23,13 +14,8 @@
     }
 
 
-    #btnDL {
-        float: right;
-        margin-top: 1%;
-        margin-bottom: 1%;
-        border: none;
-        appearance: none;
-        background-color: inherit;
+    #btnDL{
+        margin-top: -50px;
     }
 
     #modeswitch {
