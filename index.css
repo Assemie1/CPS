@@ -25,7 +25,10 @@ html {
 /* NAVBAR */
 /* Add a black background color to the top navigation */
 
-  
+
+  #btnDL{
+    margin-top: 1%;
+  }
 
   .Start{
     margin-top: 5%;;

@@ -1,0 +1,51 @@
+body {
+  --bkg-color: rgb(245, 245, 245);
+  --text-color: rgb(33, 33, 33);
+  --nav-color: rgb(200, 200, 200);
+  --nb-color: var(--bkg-color);
+}
+
+body.dark-theme {
+  --bkg-color: rgb(33, 33, 33);
+  --text-color: rgb(247, 247, 247);
+  --box-color: rgb(50, 50, 50);
+  --nav-color: rgb(91, 87, 92);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+#btnDL{ 
+  float: right;
+  border: none;
+  appearance: none;
+  background-color: inherit;
+}
+
+#modeswitch {
+  width: 5vw;
+  min-width: 60px;
+  height: auto;
+
+}
+
+
+@media only screen and (max-width: 700px) {
+  
+    
+  #btnDL{ 
+    float: right;
+    margin-bottom: 1%;
+    border: none;
+    appearance: none;
+    background-color: inherit;
+  }
+
+  #modeswitch {
+      width: 50px;
+  }
+
+}
+ 

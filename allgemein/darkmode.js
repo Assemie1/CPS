@@ -1,3 +1,29 @@
+// Funktion zum Laden der Navbar in das DOM
+function loaddarkmode() {
+  // Erstelle ein neues XMLHttpRequest-Objekt
+  var xhr = new XMLHttpRequest();
+  
+  // Definiere die Callback-Funktion für den Ladevorgang
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+      if (xhr.status === 200) {
+        // Wenn die Navbar erfolgreich geladen wurde, füge sie in das DOM ein
+        var darkmodeContainer = document.getElementById('darkmodeContainer');
+        darkmodeContainer.innerHTML = xhr.responseText;
+      } else {
+        console.error('Fehler beim Laden der darkmode datei: ' + xhr.status);
+      }
+    }
+  };
+  
+  // Lade die Navbar-Datei
+  xhr.open('GET', 'allgemein/darkmode.html', true);
+  xhr.send();
+}
+
+document.addEventListener('DOMContentLoaded', loaddarkmode);
+
+
 setTimeout(function(){
 var light = true;
 var mode;
@@ -55,4 +81,6 @@ btn.addEventListener("click", function () {
     localStorage.setItem("mode", mode);
 
 });
-}, 200);
+}, 300);
+
+

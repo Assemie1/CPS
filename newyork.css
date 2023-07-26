@@ -1,12 +1,15 @@
 /* BODY */
 body {
-    --bkg-color: rgb(255, 255, 255);
+    --box-color: rgb(255, 255, 255);
     --text-color: rgb(33, 33, 33);
+    --bkg-color: rgb(245, 245, 245);
+
   }
   
   body.dark-theme {
     --bkg-color: rgb(33, 33, 33);
     --text-color: rgb(247, 247, 247);
+    --box-color: rgb(50, 50, 50);
   }
   
   
@@ -20,17 +23,23 @@ body {
     scroll-behavior: smooth;
   }
   
+  #btnDL{ 
+    margin-top: -15%;
+  }
   
     /*TEXT HOME*/
     .StartText{
       text-align: center;
       padding-bottom: 2%;
-
+      border-radius: 10px;
+      background-color: var(--box-color);
+      width: auto;
+      padding: 1% 1% 1% 1%;
     }
   
     #uberschrift{
       font-size: 3vw;
- 
+
     }
   
     #unterschrift{
@@ -38,23 +47,43 @@ body {
     }
 
     #startIMGNY{
+      border-radius: 10px;
       width: 100%;
     }
 
     #t1NY{
       text-align: center;
       font-size: 1.5vw;
+      border-radius: 10px;
+      background-color: var(--box-color);
+      width: auto;
+      padding: 1% 1% 1% 1%;
+    }
+
+    #t2NY{
+      text-align: center;
+      font-size: 1.5vw;
+      border-radius: 10px;
+      background-color: var(--box-color);
+      width: auto;
+      padding: 1% 1% 1% 1%;
+    }
+
+    .ImgHY{
+      border-radius: 10px;
+      background-color: var(--box-color);
+      padding: 1% 1% 1% 1%;
     }
 
     #img1NY{
-      margin-top: 2%;
+      margin-top: 1%;
       margin-left: 5%;
       border-radius: 10px;
       max-width: 40%;
     }
     
     #img2NY{
-      margin-top: 2%;
+      margin-top: 1%;
       margin-left: 10%;
       border-radius: 10px;
       max-width: 40%;
