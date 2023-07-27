@@ -14,17 +14,22 @@ html {
 
   /*TEXT HOME*/
   .StartText{
+    margin-top: 1%;
     text-align: center;
-    padding-bottom: 5%;
-
+    border-radius: 10px;
+    background-color: var(--box-color);
+    width: auto;
   }
 
   #uberschrift{
+    padding-top: 1%;
     font-size: 3.5vw;
   }
 
   #unterschrift{
+    padding-bottom: 1%;
     font-size: 2vw;
+    margin-bottom: 5%;
   }
 
   #BildU{
@@ -32,7 +37,6 @@ html {
     position: absolute;
     max-width: 35%;
     height: auto;
-
     box-shadow: 8px 8px var(--text-color);
   }
 

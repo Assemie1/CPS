@@ -18,8 +18,8 @@
   
   
     #btnDL{ 
+      margin-top: -50px;
       float: right;
-      margin-top: 1%;
       margin-bottom: 1%;
       border: none;
       appearance: none;

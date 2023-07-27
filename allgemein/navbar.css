@@ -148,7 +148,7 @@ html {
     border-radius: 30px;
     overflow: hidden;
     overflow-x: hidden;
-    height: 250px;
+    height: 180px;
     width: 0;
     top: 0;
     padding-top: 60px;
@@ -168,9 +168,7 @@ html {
     padding: 8px 8px 8px 8px;
     border: none;
     outline: none;
-    background-color: var(--nav-color);
   }
- 
 
   #topnav{
     width: 0;
@@ -179,16 +177,11 @@ html {
   .SubNavBarBtn{
     width: 100%;
   }
-  
-  /* Change the color of links on hover */
-  .Topnav a:hover, .SubNavBar:hover .SubNavBarBtn {
 
+  #subNavBarBtn{
+    background-color: var(--nav-color);
   }
   
-  /* Add a color to the active/current link */
-  .Topnav a.Active {
-
-  }
   
   .Topnav .CloseMenu {
     width: 40%;
