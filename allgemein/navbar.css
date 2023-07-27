@@ -146,14 +146,13 @@ html {
     z-index: 1;
     position: fixed;
     border-radius: 30px;
-    border-color: white;
-    background-color: rgb(91, 87, 92);
     overflow: hidden;
     overflow-x: hidden;
     height: 250px;
     width: 0;
     top: 0;
     padding-top: 60px;
+    background-color: var(--nav-color);
   }
   
   /* Style the links inside the navigation bar */
@@ -162,7 +161,6 @@ html {
     position: relative;
     display: block;
     float:none;
-    color: rgb(247, 247, 247);
     text-align: center;
     text-decoration: none;
     font-size: 20px;
@@ -170,7 +168,7 @@ html {
     padding: 8px 8px 8px 8px;
     border: none;
     outline: none;
-    
+    background-color: var(--nav-color);
   }
  
 
@@ -184,14 +182,12 @@ html {
   
   /* Change the color of links on hover */
   .Topnav a:hover, .SubNavBar:hover .SubNavBarBtn {
-    background-color:  rgb(34, 31, 31);
-    color: rgb(255, 255, 255);
+
   }
   
   /* Add a color to the active/current link */
   .Topnav a.Active {
-    background-color:  rgb(255, 65, 55);
-    color: rgb(34, 31, 31);
+
   }
   
   .Topnav .CloseMenu {
@@ -205,6 +201,8 @@ html {
   
 
   .TopnavM {
+    background-color: var(--nav-color);
+    color: var(--text-color);
     margin-top: 1%;
     margin-left: 1%;
     margin-bottom: 1%;
@@ -212,8 +210,6 @@ html {
     width: auto;
     font-size: 20px;
     cursor: pointer;
-    background-color: rgb(91, 87, 92);
-    color: rgb(247, 247, 247);
     padding: 10px 15px;
     border: none;
     visibility: visible;
@@ -221,7 +217,6 @@ html {
   }
   
   .openbtn:hover {
-    background-color:#444;
   }
 
   /*Dropdown*/
@@ -238,13 +233,12 @@ html {
   }
   
   .SubNavBarContent a {
-    background-color: rgb(91, 87, 92);
+    background-color: var(--nav-color);
     z-index: 2;
     left: 0;
     position: relative;
     display: block;
     float:none;
-    color: rgb(247, 247, 247);
     text-align: center;
     text-decoration: none;
     font-size: 20px;
@@ -254,9 +248,7 @@ html {
     outline: none;
   }
   
-  .SubNavBar-content a:hover {
-    background-color:  rgb(34, 31, 31);
-  }
+
   
   .SubNavBar:hover .dropdown-content {
     display: block;
@@ -270,7 +262,6 @@ html {
     margin-top: 110px;
     visibility: hidden;
     width: 200px;
-    background-color: rgb(255, 183, 55);
     color: var(--text-color);
     text-align: center;
     border-radius: 6px;

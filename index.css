@@ -15,10 +15,9 @@ html {
 /* Add a black background color to the top navigation */
 
 
-  #btnDL{
-    margin-top: 1%;
-  }
-
+#btnDL{ 
+  margin-top: -60px;
+}
   .Start{
     margin-top: 5%;;
     position: absolute;
