@@ -36,7 +36,7 @@ setTimeout(function(){
   // Hole den aktuellen Dateinamen der Seite
   var currentPage = window.location.pathname.split("/").pop();
 
-  var links = ["index.html", "message.html", "frankfurt.html", "newyork.html", "köln.html", "evolution.html"]
+  var links = ["index.html", "message.html", "frankfurt.html", "newyork.html", "koeln.html", "evolution.html"]
 
   for (var i = 0; i < links.length; i++) {
     var link = links[i];
@@ -88,7 +88,7 @@ function openNav() {
       zu = false
     } else {
       document.getElementById("subNavBarContent").style.display = "none";
-      if (currentPage === "frankfurt.html" || currentPage === "newyork.html" || currentPage === "köln.html"){
+      if (currentPage === "frankfurt.html" || currentPage === "newyork.html" || currentPage === "koeln.html"){
         document.getElementById("subNavBarBtn").style.backgroundColor = "rgb(255, 65, 55)";
         document.getElementById("subNavBarBtn").style.color = "rgb(34, 31, 31)";
       }else{
