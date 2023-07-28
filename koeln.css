@@ -47,13 +47,14 @@ body {
       font-size: 2vw;
     }
 
-    #startIMGNY{
+    #startIMGKoe{
       margin-top: 1%;
       border-radius: 10px;
       width: 100%;
     }
 
-    #t1NY, #t2NY, #t3NY{
+    #t1Koe, #t2Koe, #t3Koe,   #t4Koe{
+      margin-top: 1%;
       text-align: center;
       font-size: 1.5vw;
       border-radius: 10px;
@@ -62,63 +63,23 @@ body {
       padding: 1% 0% 1%;
     }
 
-    #t1NY, #t3NY{
+    #t1Koe, #t3Koe{
       margin-top: 3%;
     }
 
-    .ImgHY{
+    .ImgBlock1, .ImgBlock3, .ImgBlock4{
+      margin-top: 3%;
       border-radius: 10px;
       background-color: var(--box-color);
       padding-top: 1%;
       padding-bottom: 1%;
     }
 
-    #img1NY, #img2NY, #img3NY, #img4NY{
+    #img1Koe, #img2Koe, #img3Koe, #img4Koe, #img5Koe, #img6Koe, #img7Koe, #img8Koe{
       margin-top: 1%;
       margin-left: 10%;
       border-radius: 10px;
       max-width: 35%;
     }
 
-    
-    #t4NY{
-      float:left;
-      margin-top: 1%;
-      text-align: center;
-      margin-left: 10%;
-      font-size: 1.5vw;
-      border-radius: 10px;
-      background-color: var(--box-color);
-      width: 35%;
-      padding: 1% 0% 1%;
-    }
-    
-    #t5NY{
-      width: 35%;
-      float: right;
-      text-align: center;
-      margin-right: 9.75%;
-      margin-top: 1%;
-      font-size: 1.5vw;
-      border-radius: 10px;
-      background-color: var(--box-color);
-      padding: 1% 0% 1%;
-    }
-
-    #t6NY{
-      margin-top: 10%;
-      text-align: center;
-      font-size: 1.5vw;
-      border-radius: 10px;
-      background-color: var(--box-color);
-      width: auto;
-      padding: 1% 0% 1%;
-    }
-
-    #img5NY{
-      max-width: 70%;
-      height: auto;
-      margin-top: 1%;
-      margin-left: 15%;
-      border-radius: 10px;
-    }
+   

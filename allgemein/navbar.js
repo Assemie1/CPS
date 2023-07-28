@@ -45,7 +45,7 @@ setTimeout(function(){
       document.getElementById(link).style.backgroundColor = "rgb(255, 65, 55)";
       document.getElementById(link).style.color = "rgb(34, 31, 31)";
       console.log("HALLO")
-      if (link === "frankfurt.html" || link === "newyork.html"){
+      if (link === "frankfurt.html" || link === "newyork.html" || link === "koeln.html"){
         document.getElementById("subNavBarBtn").style.backgroundColor = "rgb(255, 65, 55)";
         document.getElementById("subNavBarBtn").style.color = "rgb(34, 31, 31)";
       }
