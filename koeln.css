@@ -30,6 +30,7 @@ body {
     /*TEXT HOME*/
     .StartText{
       margin-top: 1%;
+      margin-bottom: 1%;
       text-align: center;
       border-radius: 10px;
       background-color: var(--box-color);
@@ -39,7 +40,7 @@ body {
     #uberschrift{
       padding-top: 1%;
       font-size: 3vw;
-
+      margin-bottom: 0;
     }
   
     #unterschrift{
@@ -53,26 +54,47 @@ body {
       width: 100%;
     }
 
-    #t1Koe, #t2Koe, #t3Koe,   #t4Koe{
-      margin-top: 1%;
+    #t2Koe, #t4Koe{
+      border-top: 1mm solid rgb(91, 87, 92);
       text-align: center;
       font-size: 1.5vw;
-      border-radius: 10px;
       background-color: var(--box-color);
       width: auto;
       padding: 1% 0% 1%;
+      margin-bottom: 0;
     }
 
-    #t1Koe, #t3Koe{
+    #t3Koe{
+      border-bottom: 1mm solid rgb(91, 87, 92);
+      text-align: center;
+      font-size: 1.5vw;
+      background-color: var(--box-color);
+      width: auto;
+      padding: 1% 0% 1%;
+      margin-top: 0;
+    }
+
+    #t1Koe{
       margin-top: 3%;
+      text-align: center;
+      font-size: 1.5vw;
+      background-color: var(--box-color);
+      width: auto;
+      padding: 1% 0% 1%;
+      border-radius: 10px;
+      margin-bottom: 3%;
     }
 
-    .ImgBlock1, .ImgBlock3, .ImgBlock4{
+    .ImgBlock1, .ImgBlock2, .ImgBlock3, .ImgBlock4{
       margin-top: 3%;
       border-radius: 10px;
       background-color: var(--box-color);
       padding-top: 1%;
       padding-bottom: 1%;
+    }
+
+    .ImgBlock2{
+      margin-top: 3%;
     }
 
     #img1Koe, #img2Koe, #img3Koe, #img4Koe, #img5Koe, #img6Koe, #img7Koe, #img8Koe{
