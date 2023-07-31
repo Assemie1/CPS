@@ -75,47 +75,58 @@ body {
       margin-bottom: 0;
     }
 
-    .ImgBlock1, .ImgBlock3{
+    .ImgBlock1, .ImgBlock2, .ImgBlock3, .ImgBlock4{
       border-radius: 10px;
       background-color: var(--box-color);
       padding-top: 1%;
       padding-bottom: 1%;
     }
 
-    #img1NY, #img2NY, #img3NY, #img4NY{
+    #img1NY, #img2NY{
       margin-top: 1%;
       margin-left: 10%;
       border-radius: 10px;
       max-width: 35%;
     }
+    #img3NY, #img4NY{
+      border-radius: 10px;
+      max-width: 90%;
+      padding-left: 5%;
+    }
 
-    
+    .ImgBlock2{
+      margin-left: 8%;
+      max-width: 40%;
+    }
+
+    .ImgBlock3{
+      float: right;
+      margin-top: -59.2%;
+      margin-right: 8%;
+      max-width: 40%;
+    } 
+
     #t4NY{
-      float:left;
       margin-top: 1%;
       text-align: center;
       margin-left: 10%;
       font-size: 1.5vw;
       border-radius: 10px;
       background-color: var(--box-color);
-      width: 35%;
-      padding: 1% 0% 1%;
+      padding: 1% 1% 1%;
     }
     
     #t5NY{
-      width: 35%;
-      float: right;
       text-align: center;
-      margin-right: 9.75%;
       margin-top: 1%;
       font-size: 1.5vw;
       border-radius: 10px;
       background-color: var(--box-color);
-      padding: 1% 0% 1%;
+      padding: 1% 1% 1%;
     }
 
-    .ImgBlock3{
-      margin-top: 10%;
+    .ImgBlock4{
+      margin-top: 5%;
     }
 
     #t6NY{

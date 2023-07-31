@@ -37,7 +37,7 @@
         font-size: 3vw
     }
 
-    #t1NY, #t2NY, #t3NY, #t4NY, #t5NY, #t6NY{
+    #t1Koe, #t2Koe, #t3Koe, #t4Koe, #t5Koe, #t6Koe{
         font-size: 2.5vw;
     }
 
@@ -49,14 +49,14 @@
         align-items: center;
     }
 
-    #img1NY{
+    #img1Koe{
         margin: 0 0 0 10%;
         max-width: 80%;
         height: auto;
         text-align: center;
     }
 
-    #img2NY{
+    #img2Koe{
         margin: 5% 0 0 10%;
         max-width: 80%;
         height: auto;
@@ -64,33 +64,13 @@
 
     }
 
-    #t3NY{
-        margin-top: 7%;
-    }
-
-    #img3NY, #img4NY{
+    #img3Koe, #img4Koe, #img5Koe, #img6Koe{
         max-width: 42.5%;
         margin-left: 5%;
     }
 
-    #t4NY{
-        width: 42.5%;
-        margin-left: 5%;
-    }
+    #t4Koe{
 
-    #t5NY{
-        width: 42.5%;
-        margin-right: 5%;
-    }
-
-
-    #t6NY{
-        margin-top: 18%;
-    }
-
-    #img5NY{
-        max-width: 80%;
-        margin-left: 10%;
     }
 
 

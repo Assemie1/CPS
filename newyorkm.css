@@ -39,6 +39,7 @@
 
     #t1NY, #t2NY, #t3NY, #t4NY, #t5NY, #t6NY{
         font-size: 2.5vw;
+        padding: 1% 1% 1%;
     }
 
 
@@ -61,31 +62,18 @@
         max-width: 80%;
         height: auto;
         text-align: center;
-
     }
 
     #t3NY{
-        margin-top: 7%;
+        margin-top: 5%;
     }
 
-    #img3NY, #img4NY{
-        max-width: 42.5%;
-        margin-left: 5%;
+    .ImgBlock3{
+        margin-top: -61.2%;
     }
 
-    #t4NY{
-        width: 42.5%;
-        margin-left: 5%;
-    }
-
-    #t5NY{
-        width: 42.5%;
-        margin-right: 5%;
-    }
-
-
-    #t6NY{
-        margin-top: 18%;
+    .ImgBlock4{
+        margin-top: 12%;
     }
 
     #img5NY{
