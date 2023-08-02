@@ -68,12 +68,15 @@
         margin-top: 5%;
     }
 
-    .ImgBlock3{
-        margin-top: -61.2%;
-    }
+    .ImgBlock2, .ImgBlock3{
+        float: none;
+        margin-top: 3%;
+        margin-left: 10%;
+        max-width: 80%;
+      } 
 
     .ImgBlock4{
-        margin-top: 12%;
+        margin-top: 5%;
     }
 
     #img5NY{
