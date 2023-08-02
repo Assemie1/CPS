@@ -24,6 +24,7 @@ html {
   #uberschrift{
     padding-top: 1%;
     font-size: 3.5vw;
+    margin-bottom: 0;
   }
 
   #unterschrift{

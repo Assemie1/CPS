@@ -15,7 +15,17 @@
   }
   
 
-  
+  .StartText{
+    text-align: center;
+  }
+
+  #uberschrift{
+    font-size: 5vw;
+  }
+
+  #unterschrift{
+    font-size: 3vw;
+  }
   
     #btnDL{ 
       margin-top: -50px;
@@ -32,8 +42,6 @@
     
   
     .Start{
-      margin-top: 15%;;
-      position: absolute;
       text-align: center;
     }
   
@@ -49,16 +57,5 @@
       height: auto;
     }
   
-    .StartText{
-      position: absolute;
-      text-align: center;
-      color: var(--text-color);
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background: rgb(0, 0, 0); 
-      background: rgba(0, 0, 0, 0.); 
-      width: 100%;
-    }
   
 }
