@@ -41,7 +41,7 @@ if(mode == "dark"){
   mode = "dark";
   localStorage.setItem("mode", mode);
   try{
-  document.getElementById("startbild").src="bilder/catchinghell.png"
+  document.getElementById("startbild").src="bilder/catching2hell.png"
   } catch{
     console.log("Nicht index.html")
   }
@@ -57,7 +57,7 @@ btn.addEventListener("click", function () {
       mode = "dark";
       light = false;
       try{
-        document.getElementById("startbild").src="bilder/catchinghell.png"
+        document.getElementById("startbild").src="bilder/catching2hell.png"
         } catch{
           console.log("Nicht index.html")
         }
@@ -70,7 +70,7 @@ btn.addEventListener("click", function () {
       mode = "light";
       light = true;
       try{
-        document.getElementById("startbild").src="bilder/catching.png"
+        document.getElementById("startbild").src="bilder/catching2.png"
         } catch{
           console.log("Nicht index.html")
         }
