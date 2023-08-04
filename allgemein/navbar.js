@@ -63,7 +63,7 @@ setTimeout(function(){
 
 
 function openNav() {
-    document.getElementById("topnav").style.width = "200px";
+    document.getElementById("topnav").style.width = "160px";
     document.getElementById("topnavM").style.visibility = "hidden";
 
   }

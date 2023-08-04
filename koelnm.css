@@ -64,13 +64,18 @@
 
     }
 
+    #img1Koe, #img2Koe, #img3Koe, #img4Koe, #img5Koe, #img6Koe, #img7Koe, #img8Koe{
+        margin-top: 1%;
+        margin-left: 10%;
+        border-radius: 15px;
+        max-width: 35%;
+        padding: 1% 1% 1%;
+      }
+  
+
     #img3Koe, #img4Koe, #img5Koe, #img6Koe{
         max-width: 42%;
         margin-left: 5%;
-    }
-
-    #t4Koe{
-
     }
 
 

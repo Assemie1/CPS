@@ -51,7 +51,7 @@
     }
 
     #img1NY{
-        margin: 0 0 0 10%;
+        margin: 3% 0 0 10%;
         max-width: 80%;
         height: auto;
         text-align: center;
@@ -84,5 +84,8 @@
         margin-left: 10%;
     }
 
+    #img1NY, #img2NY, #img3NY, #img4NY, #img5NY, #img6NY, #img7NY, #img8NY{
+        border-radius: 10px;
+      }
 
 }

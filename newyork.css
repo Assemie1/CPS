@@ -90,7 +90,7 @@ body {
     #img3NY, #img4NY{
       border-radius: 10px;
       max-width: 90%;
-      padding-left: 5%;
+      margin-left: 5%;
     }
 
     .ImgBlock2{
@@ -100,7 +100,7 @@ body {
 
     .ImgBlock3{
       float: right;
-      margin-top: -59.2%;
+      margin-top: -59.4%;
       margin-right: 8%;
       max-width: 40%;
     } 
@@ -144,4 +144,9 @@ body {
       margin-top: 1%;
       margin-left: 15%;
       border-radius: 10px;
+    }
+
+
+    #img1NY, #img2NY, #img3NY, #img4NY, #img5NY, #img6NY, #img7NY, #img8NY{
+      border-radius: 20px;
     }
