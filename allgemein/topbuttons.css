@@ -1,0 +1,79 @@
+body {
+  --bkg-color: rgb(245, 245, 245);
+  --text-color: rgb(33, 33, 33);
+  --nav-color: rgb(200, 200, 200);
+  --nb-color: var(--bkg-color);
+}
+
+body.dark-theme {
+  --bkg-color: rgb(33, 33, 33);
+  --text-color: rgb(247, 247, 247);
+  --box-color: rgb(50, 50, 50);
+  --nav-color: rgb(91, 87, 92);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+#btnDL{ 
+  margin-right: 1%;
+  float: right;
+  border: none;
+  appearance: none;
+  background-color: inherit;
+}
+
+
+#modeswitch {
+  width: 5vw;
+  min-width: 70px;
+  height: auto;
+  margin-top: -60px; 
+
+}
+
+#language{ 
+  margin-right: 1%;
+  float: right;
+  border: none;
+  appearance: none;
+  background-color: inherit;
+  margin-top: -55px;
+}
+
+#languageswitch {
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  min-width: 40px;
+  min-height: 40px;
+
+
+}
+
+
+@media only screen and (max-width: 700px) {
+  #modeswitch {
+    margin-top: -100px;
+    margin-bottom: 7.5px;
+    min-width: 60px;
+  }
+  
+  #btnDL{ 
+    float: right;
+    border: none;
+    appearance: none;
+    background-color: inherit;
+  }
+  #language{ 
+    margin-top: -52px;
+  }
+  
+  #languageswitch {
+
+  
+  }
+}
+ 

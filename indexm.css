@@ -27,14 +27,6 @@
     font-size: 3vw;
   }
   
-    #btnDL{ 
-      margin-top: -50px;
-      float: right;
-      margin-bottom: 1%;
-      border: none;
-      appearance: none;
-      background-color: inherit;
-    }
   
     #modeswitch {
         width: 50px;

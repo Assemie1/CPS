@@ -1,11 +1,24 @@
 /* BODY */
+body {
+  --box-color: rgb(255, 255, 255);
+  --text-color: rgb(33, 33, 33);
+  --bkg-color: rgb(245, 245, 245);
+
+}
+
+body.dark-theme {
+  --bkg-color: rgb(33, 33, 33);
+  --text-color: rgb(247, 247, 247);
+  --box-color: rgb(50, 50, 50);
+}
 
 
 body{
   background-color: var(--bkg-color);
   color: var(--text-color);
-  font-family: Verdana;
+  font-family: Impact;
 }
+
 
 html {
   scroll-behavior: smooth;
@@ -14,10 +27,6 @@ html {
 /* NAVBAR */
 /* Add a black background color to the top navigation */
 
-
-#btnDL{ 
-  margin-top: -60px;
-}
 
 .StartText{
   margin-top: 1%;

@@ -15,10 +15,6 @@ html {
     position: absolute;
   }
 
-  #btnDL{
-    margin-top: -50px;
-}
-
   #modeswitch {
     width: 50px;
     height: auto;
@@ -132,7 +128,7 @@ html {
   }
 
 
-  #Text{
+  #t1, t5{
     max-width: 80%;
     text-align: center;
     position: relative;
@@ -142,7 +138,7 @@ html {
   }
 
 
-  #Text2{
+  #t2, #t6{
     max-width: 80%;
     text-align: center;
     position: relative;
@@ -151,7 +147,7 @@ html {
     box-shadow: 3px 3px var(--text-color);
   }
 
-  #paart{
+  #t3{
     max-width: 80%;
     text-align: center;
     position: relative;
@@ -160,7 +156,7 @@ html {
     box-shadow: 3px 3px var(--text-color);
   }
 
-  #ubahnt{
+  #t4{
     max-width: 80%;
     text-align: center;
     position: relative;
@@ -169,7 +165,7 @@ html {
     box-shadow: 3px 3px var(--text-color);
   }
 
-  #schlosst{
+  #t7{
     max-width: 80%;
     text-align: center;
     position: relative;

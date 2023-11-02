@@ -23,9 +23,7 @@ body {
     scroll-behavior: smooth;
   }
   
-  #btnDL{ 
-    margin-top: -60px;
-  }
+
   
     /*TEXT HOME*/
     .StartText{
@@ -38,7 +36,7 @@ body {
   
     #uberschrift{
       padding-top: 1%;
-      font-size: 3vw;
+      font-size: 3.5vw;
       margin-bottom: 0;
     }
   
@@ -53,7 +51,7 @@ body {
       width: 100%;
     }
 
-    #t1NY, #t2NY, #t3NY{
+    #t1, #t2, #t3{
       text-align: center;
       font-size: 1.5vw;
       background-color: var(--box-color);
@@ -61,15 +59,15 @@ body {
       padding: 1% 0% 1%;
     }
 
-    #t1NY, #t3NY{
+    #t1, #t3{
       margin-top: 3%;
     }
 
-    #t1NY{
+    #t1{
       margin-bottom: 3%;
     }
 
-    #t2NY{
+    #t2{
       border-top: 1mm solid rgb(91, 87, 92);
       margin-bottom: 0;
     }
@@ -105,7 +103,7 @@ body {
       max-width: 40%;
     } 
 
-    #t4NY{
+    #t4{
       margin-top: 1%;
       text-align: center;
       font-size: 1.5vw;
@@ -114,7 +112,7 @@ body {
       padding: 1% 1% 1%;
     }
     
-    #t5NY{
+    #t5{
       border-top: 1mm solid rgb(91, 87, 92);
       text-align: center;
       margin-top: 1%;
@@ -127,7 +125,7 @@ body {
       margin-top: 5%;
     }
 
-    #t6NY{
+    #t6{
       border-bottom: 1mm solid rgb(91, 87, 92);
       margin-bottom: 1%;
       margin-top: 0;

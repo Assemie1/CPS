@@ -1,4 +1,4 @@
-function myFunction() {
+function maintenance() {
 
     var x = document.getElementById("myPopup");
     if (window.getComputedStyle(x).visibility == "hidden"){

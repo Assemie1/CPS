@@ -23,10 +23,6 @@ body {
     scroll-behavior: smooth;
   }
   
-  #btnDL{ 
-    margin-top: -60px;
-  }
-  
     /*TEXT HOME*/
     .StartText{
       margin-top: 1%;
@@ -39,7 +35,7 @@ body {
   
     #uberschrift{
       padding-top: 1%;
-      font-size: 3vw;
+      font-size: 3.5vw;
       margin-bottom: 0;
     }
   
@@ -54,7 +50,7 @@ body {
       width: 100%;
     }
 
-    #t2Koe, #t4Koe{
+    #t2, #t4{
       border-top: 1mm solid rgb(91, 87, 92);
       text-align: center;
       font-size: 1.5vw;
@@ -64,7 +60,7 @@ body {
       margin-bottom: 0;
     }
 
-    #t3Koe{
+    #t3{
       border-bottom: 1mm solid rgb(91, 87, 92);
       text-align: center;
       font-size: 1.5vw;
@@ -74,7 +70,7 @@ body {
 
     }
 
-    #t1Koe{
+    #t1{
       margin-top: 3%;
       text-align: center;
       font-size: 1.5vw;

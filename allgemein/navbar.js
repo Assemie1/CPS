@@ -66,7 +66,7 @@ function openNav() {
     document.getElementById("topnav").style.width = "160px";
     document.getElementById("topnavM").style.visibility = "hidden";
 
-  }
+  }openSubNavBar()
   
   function closeNav() {
     document.getElementById("topnav").style.width = "0%";
@@ -86,7 +86,13 @@ function openNav() {
       document.getElementById("subNavBarBtn").style.color= "var(--text-color)"
       console.log("GEH AUF")
       zu = false
+      if (window.innerWidth <= 700){
+        document.getElementById("topnav").style.height="200px";
+      }
     } else {
+      if (window.innerWidth <= 700){
+        document.getElementById("topnav").style.height="180px";
+      }
       document.getElementById("subNavBarContent").style.display = "none";
       if (currentPage === "frankfurt.html" || currentPage === "newyork.html" || currentPage === "koeln.html"){
         document.getElementById("subNavBarBtn").style.backgroundColor = "rgb(255, 65, 55)";
@@ -106,9 +112,11 @@ function resnav(){
   if (window.innerWidth > 700){
     document.getElementById("topnavM").style.visibility = "hidden";
     document.getElementById("topnav").style.width = "100%";
+    document.getElementById("topnav").style.height = "auto";
   }else{
     document.getElementById("topnavM").style.visibility = "visible";
     document.getElementById("topnav").style.width = "0";
+    document.getElementById("topnav").style.height="180px";
   }
 }
 

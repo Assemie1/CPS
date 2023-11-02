@@ -1,0 +1,41 @@
+{
+    "uberschrift":{
+        "deu": "Raw-Bilder sind hässlich",
+        "en": "Raw images are disgusting"
+    },
+    "unterschrift":{
+        "deu": "Bewege die Maus/tippe auf das Bild und erleben die Magie der Bildbearbeitung",
+        "en": "Hover/tap on the image and see the magic of image editing"
+    },
+    "t1":{
+        "deu": "Es war Frühling, aber mit etwas Farbkorrektur und Farbanpassungen ist der Sommer schon wieder vorbei",
+        "en": "It was spring but with some color grading and color adjustments summer is already over again"
+    },
+    "t2":{
+        "deu": "Kein Objektiv ist perfekt. Durch die Krümmung der Linsen ist das Bild etwas verzerrt, was dann in der Nachbearbeitung korrigiert werden kann",
+        "en": "No lens is perfect. Due to the curvature of the lenses, the image is somewhat distorted, which can then be corrected afterwards in processing"
+    },
+    "t3":{
+        "deu": "Menschen können die besten Motive sein. Oder einfach nur nerven und im Weg sein. Es sind überall und immer viel zu viele auf der Straße",
+        "en": "People can be the best subjects. Or simply annoy us and get in the way. There are everywhere and always far too many on the road"
+    },
+    "t4":{
+        "deu": "Es ist beeindruckend, wie sich ein Bild verändert, wenn man einfach jede Farbe entfernt. Nicht umsonst können Bilder mit Schwarz-Weiß 'gerettet' werden",
+        "en": "It's impressive how an image changes when you just remove any color. It is not without reason that images can be 'saved' with black and white"
+    },
+    "t5":{
+        "deu": "Nicht nur Menschen können auf Bildern ablenken. Auch Gegenstände können die Komposition beeinträchtigen. Und nicht zu vergessen, ohne Nachkorrektur wäre so manches eine ziemlich schiefe Angelegenheit",
+        "en": "Not only people can be distracting in pictures. Objects can also affect the composition. And not to forget without post-correction very much would be quite a crooked affair"
+    },
+    "t6":{
+        "deu": "Und schon wieder ist etwas im Weg. Nur dieses Mal auch an einer sehr ungeeigneten Stelle, um es einfach zu entfernen. Vor allem die Überlappung der Haare ist unpraktisch",
+        "en": "And once again something in the way. Only this time also in a very unsuitable place to simply remove it. Especially the overlap of the hair is impractical"
+    },
+    "t7":{
+        "deu": "Der Orton-Effekt. Ein Bild wird mit einer unscharfen (und leicht überbelichteten) Kopie überlagert, um den besonderen Look zu erzielen",
+        "en": "The Orton effect. An image is overlaid with an blurred (and slightly overexposed) copy to get that special look"
+    }
+
+
+
+}

@@ -1,3 +1,18 @@
+/* BODY */
+body {
+  --box-color: rgb(255, 255, 255);
+  --text-color: rgb(33, 33, 33);
+  --bkg-color: rgb(245, 245, 245);
+
+}
+
+body.dark-theme {
+  --bkg-color: rgb(33, 33, 33);
+  --text-color: rgb(247, 247, 247);
+  --box-color: rgb(50, 50, 50);
+}
+
+
 body{
   background-color: var(--bkg-color);
   color: var(--text-color);
@@ -8,13 +23,12 @@ html {
   scroll-behavior: smooth;
 }
 
-#btnDL{ 
-  margin-top: -60px;
-}
+
 
   /*TEXT HOME*/
   .StartText{
     margin-top: 1%;
+    margin-bottom: 1%;
     text-align: center;
     border-radius: 10px;
     background-color: var(--box-color);
@@ -121,7 +135,7 @@ html {
   }
 
 
-  #Text{
+  #t1, #t5{
     text-align: center;
     padding: 1% 1% 1% 1%;
     border-radius: 10px;
@@ -132,7 +146,7 @@ html {
     font-size: 1.5vw;
   }
 
-  #Text2{
+  #t2, #t6{
     text-align: center;
     padding: 1% 1% 1% 1%;
     border-radius: 10px;
@@ -141,10 +155,9 @@ html {
     box-shadow: -8px 8px var(--text-color);
     margin-left: 10%;
     font-size: 1.5vw;
-    text-align: right;
   }
 
-  #paart{
+  #t3{
     text-align: center;
     padding: 1% 1% 1% 1%;
     border-radius: 10px;
@@ -155,7 +168,7 @@ html {
     font-size: 1.5vw;
   }
 
-  #ubahnt{
+  #t4{
     text-align: center;
     padding: 1% 1% 1% 1%;
     border-radius: 10px;
@@ -164,10 +177,9 @@ html {
     box-shadow: -8px 8px var(--text-color);
     margin-left: 10%;
     font-size: 1.5vw;
-    text-align: right;
   }
 
-  #schlosst{
+  #t7{
     text-align: center;
     padding: 1% 1% 1% 1%;
     border-radius: 10px;
