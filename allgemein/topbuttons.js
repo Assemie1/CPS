@@ -20,6 +20,7 @@ function loaddarkmode() {
   // Lade die Navbar-Datei
   xhr.open('GET', 'allgemein/topbutton.html', true);
   xhr.send();
+  console.log("Darkmode loaded");
 }
 
 document.addEventListener('DOMContentLoaded', loaddarkmode);

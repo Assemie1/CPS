@@ -1,22 +1,25 @@
-document.addEventListener('DOMContentLoaded', function () {
-   changeLanguage();
-});
+document.addEventListener('DOMContentLoaded', loadJSON);
 
-var currentPage = window.location.pathname.split("/").pop();
-var links = ["index.html", "message.html", "frankfurt.html", "newyork.html", "koeln.html", "evolution.html"]
+function loadJSON(){
+  var currentPage = window.location.pathname.split("/").pop();
+  var links = ["index.html", "message.html", "frankfurt.html", "newyork.html", "koeln.html", "evolution.html"];
+  for (var i = 0; i < links.length; i++) {
 
-for (var i = 0; i < links.length; i++) {
-  var link = links[i];
-
-  if (link === currentPage) {
-      jsonFile = "translations/"+link +".json";
+    var link = links[i];
+    if(currentPage === ""){
+      jsonFile = "translations/index.html.json";
     }
-
+    else if (link === currentPage) {
+        jsonFile = "translations/"+link +".json";
+        console.log("WARUM");
+      }
+  }
 }
 
 function translate(){
  // Lade die JSON-Datei
-    fetch(jsonFile)
+ try{
+  fetch(jsonFile)
  .then(response => response.json())
  .then(data => {
      // Hole die gewünschten Texte basierend auf der ausgewählten Sprache
@@ -36,5 +39,7 @@ function translate(){
      document.getElementById('t7').textContent = data.t7[selectedLanguage];
 
  })
- .catch(error => console.error('Fehler beim Laden der JSON-Datei', error));
+}catch(err) {
+    console.log("JSON lädt nicht")
+ };
 }
