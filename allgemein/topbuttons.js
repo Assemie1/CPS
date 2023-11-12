@@ -23,7 +23,7 @@ function loaddarkmode() {
   console.log("Darkmode loaded");
 }
 
-document.addEventListener('DOMContentLoaded', loaddarkmode);
+document.addEventListener('DOMContentLoaded', loaddarkmode)
 
 
 setTimeout(function(){
@@ -33,9 +33,7 @@ var theme;
 const btn = document.querySelector(".btn-toggle");
 
 mode = localStorage.getItem("mode");
-
-language = "en";
-localStorage.setItem("language", language)
+language = localStorage.getItem("language")
 
 
 if(mode == "dark"){
@@ -85,7 +83,16 @@ btn.addEventListener("click", function () {
     localStorage.setItem("theme", theme);
     localStorage.setItem("mode", mode);
 
+
 });
+
+  if(language === "deu"){
+    language = "deu";
+    document.getElementById("languageswitch").src="bilder/deutschland.png";
+    localStorage.setItem("language", language);
+    console.log(localStorage.getItem("language"));
+    translate()
+  }
 
 
 }, 600);
@@ -93,14 +100,16 @@ btn.addEventListener("click", function () {
 
 
 function changeLanguage() {
-  if(language == "en"){
+  console.log("Sprache im Stoarge " + language);
+  if(language === "en"){
     language = "deu";
     document.getElementById("languageswitch").src="bilder/deutschland.png";
   }else{
     language = "en";
     document.getElementById("languageswitch").src="bilder/england.jpg";
   }
-  localStorage.setItem("language", language)
+  localStorage.setItem("language", language);
+  console.log(localStorage.getItem("language"));
 
   translate();
 }

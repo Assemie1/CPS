@@ -24,8 +24,6 @@ function loadNavbar() {
   xhr.send();
 }
 
-
-
 // Rufe die Funktion zum Laden der Navbar auf, sobald das DOM vollständig geladen ist
 document.addEventListener('DOMContentLoaded', loadNavbar);
 
