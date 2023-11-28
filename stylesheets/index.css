@@ -3,13 +3,14 @@ body {
   --box-color: rgb(255, 255, 255);
   --text-color: rgb(33, 33, 33);
   --bkg-color: rgb(245, 245, 245);
-
+  --shadow-color: rgb(235, 235, 235);
 }
 
 body.dark-theme {
   --bkg-color: rgb(33, 33, 33);
   --text-color: rgb(247, 247, 247);
   --box-color: rgb(50, 50, 50);
+  --shadow-color: rgb(70, 70, 70);
 }
 
 
@@ -33,6 +34,7 @@ html {
   text-align: center;
   border-radius: 10px;
   background-color: var(--box-color);
+  box-shadow: 4px 4px var(--shadow-color);
   width: auto;
 }
 
