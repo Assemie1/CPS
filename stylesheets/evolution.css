@@ -74,7 +74,6 @@ html {
     position: absolute;
     max-width: 35%;
     height: auto;
-
     box-shadow: 8px 8px var(--text-color);
   }
 
@@ -84,7 +83,6 @@ html {
     border-radius: 10px;
     max-width: 35%;
     height: auto;
-
     opacity: 0;
   }
 
@@ -132,9 +130,11 @@ html {
     margin-left: 10%;
     margin-top: 50%;
 
-
   }
 
+  .Kuchen{
+    margin-top: 50%;
+  }
 
   #t1, #t5{
     text-align: center;
@@ -169,7 +169,7 @@ html {
     font-size: 1.5vw;
   }
 
-  #t4{
+  #t4, #t8{
     text-align: center;
     padding: 1% 1% 1% 1%;
     border-radius: 10px;

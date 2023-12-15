@@ -127,8 +127,15 @@ html {
     align-items: center;
   }
 
+  .Kuchen{
+    margin: 40% 0 0 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
-  #t1, t5{
+  }
+
+  #t1, #t5{
     max-width: 80%;
     text-align: center;
     position: relative;
@@ -156,7 +163,7 @@ html {
     box-shadow: 3px 3px var(--text-color);
   }
 
-  #t4{
+  #t4, #t8{
     max-width: 80%;
     text-align: center;
     position: relative;

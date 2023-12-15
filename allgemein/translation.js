@@ -37,6 +37,7 @@ function translate(){
      document.getElementById('t5').textContent = data.t5[selectedLanguage];
      document.getElementById('t6').textContent = data.t6[selectedLanguage];
      document.getElementById('t7').textContent = data.t7[selectedLanguage];
+     document.getElementById('t8').textContent = data.t8[selectedLanguage];
 
  })
 }catch(err) {
