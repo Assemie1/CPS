@@ -90,17 +90,15 @@ html {
   .column {
     flex: 25%;
     padding: 0 4px;
-
+    box-sizing: border-box;
   }
 
   .column img {
+    border-radius: 5px;
     margin-top: 8px;
     vertical-align: middle;
     filter: contrast(110%) saturate(0%);
   }
 
-  * {
-    box-sizing: border-box;
-  }
-  
+
   

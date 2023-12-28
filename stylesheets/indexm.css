@@ -1,9 +1,5 @@
-/* BODY */
-
 @media only screen and (max-width: 700px) {
-
-  
-  
+ 
   body{
     background-color: var(--bkg-color);
     color: var(--text-color);
@@ -12,6 +8,11 @@
   
   html {
     scroll-behavior: smooth;
+  }
+  
+  #navbarcontainer{
+    z-index: 99;
+    position: absolute;
   }
   
 
@@ -57,6 +58,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    box-sizing: border-box;
   }
   
   /* Create two equal columns that sits next to each other */
@@ -72,7 +74,5 @@
     filter: contrast(110%) saturate(0%);
   }
 
-  * {
-    box-sizing: border-box;
-  }
+
 }
