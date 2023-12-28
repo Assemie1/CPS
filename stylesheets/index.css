@@ -68,3 +68,39 @@ html {
     height: auto;
   }
 
+  #t1{
+    text-align: center;
+    font-size: 1.5vw;
+    background-color: var(--box-color);
+    border-radius: 10px;
+    width: auto;
+    padding: 1% 0% 1%;
+    margin-top: 3%;
+    box-shadow: 4px 4px var(--shadow-color);
+  }
+
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    padding: 0 4px;
+
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    filter: contrast(110%) saturate(0%);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  
