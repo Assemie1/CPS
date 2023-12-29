@@ -35,9 +35,9 @@ html {
   color: var(--text-color);
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: max(1vw, 12px);
   font-weight: bold;
-  padding: 14px 16px;
+  padding: 1vw;
 
 }
 
@@ -75,9 +75,9 @@ html {
   color: var(--text-color);
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: max(1vw, 12px);
   font-weight: bold;
-  padding: 14px 16px;
+  padding: 1vw;
 }
 
 .SubNavBarContent {
@@ -92,9 +92,9 @@ html {
   color: var(--text-color);
   text-align: left;
   text-decoration: none;
-  font-size: 20px;
+  font-size: max(1vw, 12px);
   font-weight: bold;
-  padding: 14px 16px;
+  padding: 1vw;
 }
 
 .SubNavBarContent a:hover {
