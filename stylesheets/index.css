@@ -18,6 +18,9 @@ body{
   background-color: var(--bkg-color);
   color: var(--text-color);
   font-family: Impact;
+  --fsize-heading: 3vw;
+  --fsize-subheading: 2vw;
+  --fsize-text: max(1vw, 12px);
 }
 
 
@@ -39,15 +42,15 @@ html {
 }
 
 #uberschrift{
-  font-weight: bold;
+
   padding-top: 1%;
-  font-size: 3.5vw;
+  font-size: var(--fsize-heading);
   margin-bottom: 0;
 }
 
 #unterschrift{
   padding-bottom: 1%;
-  font-size: 2vw;
+  font-size: var(--fsize-subheading);
   margin-bottom: 5%;
 }
 
@@ -70,7 +73,7 @@ html {
 
   #t1{
     text-align: center;
-    font-size: 1.5vw;
+    font-size: var(--fsize-text);
     background-color: var(--box-color);
     border-radius: 10px;
     width: auto;

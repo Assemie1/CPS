@@ -14,96 +14,108 @@ body.dark-theme {
 }
 
 
-  
-  body{
-    background-color: var(--bkg-color);
-    color: var(--text-color);
-    font-family: Impact;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-  
-    /*TEXT HOME*/
-    .StartText{
-      margin-top: 1%;
-      margin-bottom: 1%;
-      text-align: center;
-      border-radius: 10px;
-      background-color: var(--box-color);
-      box-shadow: 4px 4px var(--shadow-color);
-      width: auto;
-    }
-  
-    #uberschrift{
-      padding-top: 1%;
-      font-size: 3.5vw;
-      margin-bottom: 0;
-    }
-  
-    #unterschrift{
-      padding-bottom: 1%;
-      font-size: 2vw;
-    }
 
-    #startIMGKoe{
-      margin-top: 1%;
-      border-radius: 10px;
-      width: 100%;
-    }
+body {
+  background-color: var(--bkg-color);
+  color: var(--text-color);
+  font-family: Impact;
+  --fsize-heading: 3vw;
+  --fsize-subheading: 2vw;
+  --fsize-text: max(1vw, 12px);
+}
 
-    #t2, #t4{
-      border-top: 1mm solid rgb(91, 87, 92);
-      text-align: center;
-      font-size: 1.5vw;
-      background-color: var(--box-color);
-      width: auto;
-      padding: 1% 1% 1%;
-      margin-bottom: 0;
-    }
+html {
+  scroll-behavior: smooth;
+}
 
-    #t3{
-      border-bottom: 1mm solid rgb(91, 87, 92);
-      text-align: center;
-      font-size: 1.5vw;
-      background-color: var(--box-color);
-      width: auto;
-      padding: 1% 1% 1%;      
-      margin-top: 0;
+/*TEXT HOME*/
+.StartText {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+  border-radius: 10px;
+  background-color: var(--box-color);
+  box-shadow: 4px 4px var(--shadow-color);
+  width: auto;
+}
 
-    }
+#uberschrift {
+  padding-top: 1%;
+  font-size: var(--fsize-heading);
+  margin-bottom: 0;
+}
 
-    #t1{
-      margin-top: 3%;
-      text-align: center;
-      font-size: 1.5vw;
-      background-color: var(--box-color);
-      box-shadow: 4px 4px var(--shadow-color);
-      width: auto;
-      padding: 1% 1% 1%;
-      border-radius: 10px;
-      margin-bottom: 3%;
-    }
+#unterschrift {
+  padding-bottom: 1%;
+  font-size: var(--fsize-subheading);
+}
 
-    .ImgBlock1, .ImgBlock2, .ImgBlock3, .ImgBlock4{
-      margin-top: 3%;
-      border-radius: 10px;
-      background-color: var(--box-color);
-      padding-top: 1%;
-      padding-bottom: 1%;
-    }
+#startIMGKoe {
+  margin-top: 1%;
+  border-radius: 10px;
+  width: 100%;
+}
 
-    .ImgBlock2{
-      margin-top: 3%;
-    }
+#t2,
+#t4 {
+  border-top: 1mm solid rgb(91, 87, 92);
+  text-align: center;
+  font-size: var(--fsize-text);
+  background-color: var(--box-color);
+  width: auto;
+  padding: 1% 1% 1%;
+  margin-bottom: 0;
+}
 
-    #img1Koe, #img2Koe, #img3Koe, #img4Koe, #img5Koe, #img6Koe, #img7Koe, #img8Koe{
-      margin-top: 1%;
-      margin-left: 10%;
-      border-radius: 20px;
-      max-width: 35%;
-      padding: 1% 1% 1%;
-    }
+#t3 {
+  border-bottom: 1mm solid rgb(91, 87, 92);
+  text-align: center;
+  font-size: var(--fsize-text);
+  background-color: var(--box-color);
+  width: auto;
+  padding: 1% 1% 1%;
+  margin-top: 0;
 
-   
+}
+
+#t1 {
+  margin-top: 3%;
+  text-align: center;
+  font-size: var(--fsize-text);
+  background-color: var(--box-color);
+  box-shadow: 4px 4px var(--shadow-color);
+  width: auto;
+  padding: 1% 1% 1%;
+  border-radius: 10px;
+  margin-bottom: 3%;
+}
+
+.ImgBlock1,
+.ImgBlock2,
+.ImgBlock3,
+.ImgBlock4 {
+  margin-top: 3%;
+  border-radius: 10px;
+  background-color: var(--box-color);
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.ImgBlock2 {
+  margin-top: 3%;
+}
+
+#img1Koe,
+#img2Koe,
+#img3Koe,
+#img4Koe,
+#img5Koe,
+#img6Koe,
+#img7Koe,
+#img8Koe {
+  margin-top: 1%;
+  margin-left: 10%;
+  border-radius: 20px;
+  max-width: 35%;
+  padding: 1% 1% 1%;
+}
