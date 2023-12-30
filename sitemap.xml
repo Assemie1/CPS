@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.catchingphotonstudios.de</loc>
+		<priority>1.00</priority>
+		<lastmod>2023-12-30</lastmod>
+	</url>
+	<url>
+		<loc>https://www.catchingphotonstudios.de/newyork.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2023-11-04</lastmod>
+	</url>
+	<url>
+		<loc>https://www.catchingphotonstudios.de/koeln.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2023-11-04</lastmod>
+	</url>
+	<url>
+		<loc>https://www.catchingphotonstudios.de/evolution.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2023-12-15</lastmod>
+	</url>
+</urlset>
