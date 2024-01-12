@@ -94,7 +94,7 @@ html {
   text-decoration: none;
   font-size: max(1vw, 12px);
   font-weight: bold;
-  padding: 1vw;
+  padding: 0.65vw;
 }
 
 .SubNavBarContent a:hover {

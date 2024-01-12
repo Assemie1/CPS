@@ -80,14 +80,14 @@ body.dark-theme {
       margin-bottom: 0;
     }
 
-    .ImgBlock1, .ImgBlock2, .ImgBlock3, .ImgBlock4{
+    .ImgBlock1, .ImgBlock2, .ImgBlock3, .ImgBlock4, .ImgBlock5{
       border-radius: 10px;
       background-color: var(--box-color);
-      padding-top: 1%;
+      padding-top: 1vw;
       padding-bottom: 1%;
     }
 
-    #img1NY, #img2NY{
+    #img1NY, #img2NY, #img6NY, #img7NY{
       margin-top: 1%;
       margin-left: 10%;
       border-radius: 10px;
@@ -100,16 +100,21 @@ body.dark-theme {
     }
 
     .ImgBlock2{
+      float: left;
       margin-left: 8%;
       max-width: 40%;
     }
 
     .ImgBlock3{
       float: right;
-      margin-top: -59.4%;
       margin-right: 8%;
       max-width: 40%;
     } 
+
+    #skyscrapers{
+      padding-top: 1%;
+      padding-bottom: 62%;
+    }
 
     #t4{
       margin-top: 1%;
@@ -130,10 +135,10 @@ body.dark-theme {
     }
 
     .ImgBlock4{
-      margin-top: 5%;
+      margin-top: 3%;
     }
 
-    #t6{
+    #t6, #t7{
       border-bottom: 1mm solid rgb(91, 87, 92);
       margin-bottom: 1%;
       margin-top: 0;

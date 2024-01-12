@@ -37,14 +37,14 @@ language = localStorage.getItem("language")
 
 
 if(mode == "dark"){
-  document.getElementById("modeswitch").src="bilder/darkmode.png";
+  document.getElementById("modeswitch").src="bilder/darkmode.webp";
   theme = document.body.classList.contains("dark-theme");
   document.body.classList.toggle("dark-theme");
   light = false;
   mode = "dark";
   localStorage.setItem("mode", mode);
   try{
-  document.getElementById("startbild").src="bilder/catching2hell.png"
+  document.getElementById("startbild").src="bilder/catching2hell.webp"
   } catch{
     console.log("Nicht index.html")
   }
@@ -54,26 +54,26 @@ if(mode == "dark"){
 
 btn.addEventListener("click", function () {
     if (light == true){
-      document.getElementById("modeswitch").src="bilder/darkmode.png";
+      document.getElementById("modeswitch").src="bilder/darkmode.webp";
       theme = document.body.classList.contains("dark-theme");
       document.body.classList.toggle("dark-theme");
       mode = "dark";
       light = false;
       try{
-        document.getElementById("startbild").src="bilder/catching2hell.png"
+        document.getElementById("startbild").src="bilder/catching2hell.webp"
         } catch{
           console.log("Nicht index.html")
         }
 
 
     }else{
-      document.getElementById("modeswitch").src="bilder/lightmode.png";
+      document.getElementById("modeswitch").src="bilder/lightmode.webp";
       theme = document.body.classList.contains("light-theme");
       document.body.classList.toggle("dark-theme");
       mode = "light";
       light = true;
       try{
-        document.getElementById("startbild").src="bilder/catching2.png"
+        document.getElementById("startbild").src="bilder/catching2.webp"
         } catch{
           console.log("Nicht index.html")
         }
@@ -88,7 +88,7 @@ btn.addEventListener("click", function () {
 
   if(language === "deu"){
     language = "deu";
-    document.getElementById("languageswitch").src="bilder/deutschland.png";
+    document.getElementById("languageswitch").src="bilder/deutschland.webp";
     localStorage.setItem("language", language);
     console.log(localStorage.getItem("language"));
     translate()
@@ -103,10 +103,10 @@ function changeLanguage() {
   console.log("Sprache im Stoarge " + language);
   if(language === "en"){
     language = "deu";
-    document.getElementById("languageswitch").src="bilder/deutschland.png";
+    document.getElementById("languageswitch").src="bilder/deutschland.webp";
   }else{
     language = "en";
-    document.getElementById("languageswitch").src="bilder/england.jpg";
+    document.getElementById("languageswitch").src="bilder/england.webp";
   }
   localStorage.setItem("language", language);
   console.log(localStorage.getItem("language"));
